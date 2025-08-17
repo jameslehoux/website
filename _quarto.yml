@@ -1,0 +1,105 @@
+project:
+  type: website
+  # post-render:
+  #   - "cp -rnv static/. _site" # source: https://github.com/quarto-dev/quarto-cli/discussions/4162#discussioncomment-4831352
+
+website:
+  title: "Silvia Canelón"
+  site-url: https://silviacanelon.com
+  description: "Researcher, educator, and journalist with data science expertise."
+  favicon: assets/silvia/img/logo_rounded.svg
+  page-navigation: true
+  back-to-top-navigation: true
+  twitter-card:
+    creator: "@spcanelon"
+    site: "@spcanelon"
+    card-style: summary_large_image
+  comments: 
+    utterances: 
+      repo: spcanelon/silvia 
+      label: utterances
+      theme: body-light
+      issue-term: title
+  # search:
+  #   algolia:
+  #     index-name: silviacanelon_com_2nwwu5566h_pages
+  #     application-id: 2NWWU5566H
+  #     search-only-api-key: 4fc205c04b677b0951348a8571b2d7d0
+  #     show-logo: false
+      # index-fields:
+      #   href: url
+      #   title: title
+      #   section: subtitle
+      #   text: body
+ 
+  navbar:
+    logo: assets/silvia/img/logo_rounded.svg
+    # logo: assets/silvia/img/logo_noBg.svg
+    tools:
+    - icon: github
+      href: https://www.github.com/spcanelon/silvia
+    right:
+      - text: About
+        aria-label: "About Me"
+        href: about/index.qmd
+      - text: Blog
+        aria-label: "Meeting People Where They R"
+        href: blog/index.qmd
+      - text: Talks
+        aria-label: "Invited Talks"
+        href: talk/index.qmd  
+      - text: Publications
+        aria-label: "Publications"
+        href: publication/index.qmd
+      - text: Projects
+        aria-label: "Project Portfolio"
+        href: project/index.qmd
+  
+  page-footer:  
+    left: >-
+     &#169; 2024 Silvia Canelón &#8729; Made with [Quarto](https://quarto.org)
+    center: |
+      <a class="link-dark me-1" href="/accessibility.html" title="Accessibility commitment" target="_blank" rel="noopener">{{< fa universal-access >}}</a>
+      <a class="link-dark me-1" href="https://bsky.app/profile/silviacanelon.com" title="Bluesky" target="_blank" rel="noopener">{{< fa brands bluesky >}}</a>
+      <a class="link-dark me-1" href="https://linkedin.com/in/spcanelon" title="LinkedIn" target="_blank" rel="noopener">{{< fa brands linkedin >}}</a>
+      <a class="link-dark me-1" href="https://github.com/spcanelon" title="github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
+      <a class="link-dark me-1" href="https://orcid.org/0000-0003-1709-1394" title="orcid" target="_blank" rel="noopener">{{< ai orcid >}}</a>
+      <a class="link-dark me-1" href="https://scholar.google.com/citations?user=GAzkvpcAAAAJ&hl=en&oi=ao" title="Google Scholar" target="_blank"rel="noopener">{{< ai google-scholar >}}</a>
+      <a class="link-dark me-1" href="https://buttondown.com/spcanelon" title="Newsletter" target="_blank" rel="noopener">{{< fa envelope >}}</a>
+
+    right: 
+      - text: "Accessibility"
+        aria-label: "Accessibility Commitment"
+        href: accessibility.qmd
+      - text: "Contact"
+        aria-label: "Contact Form"
+        href: "contact.qmd"
+      - text: "License"
+        aria-label: "License Details"
+        href: license.qmd
+      - icon: rss
+        href: blog/index.xml
+
+format: 
+  html:
+    theme:
+      light:
+        - cosmo
+        - assets/silvia-theme-light.scss
+        - assets/silvia/colors-light.scss
+        - assets/silvia/fonts.scss
+      dark: 
+        - cosmo
+        - assets/silvia-theme-dark.scss
+        - assets/silvia/colors-dark.scss
+    highlight-style:
+      light: assets/silvia/a11y-light.theme
+      dark: assets/silvia/a11y-dark.theme
+    code-link: true
+    pagetitle: "{{< meta title >}}"
+    lightbox: true
+
+execute: 
+  freeze: auto
+
+include-in-header: assets/silvia/umami.html

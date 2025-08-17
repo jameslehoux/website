@@ -1,0 +1,95 @@
+---
+title: 'Philly Center City District SIPS: An Interactive Map'
+date: 2024-06-16
+date-modified: today
+author:
+  - Silvia Canelón
+slug: ccd-sips
+image: featured.png
+categories:
+  - journalism
+  - R
+  - maps
+  - webscraping
+  - robotstxt
+  - rvest
+  - leaflet
+  - tidygeocoder
+subtitle: "A collection of interactive maps showing restaurants participating in Philly's CCD SIPS"
+description: ''
+listing: 
+- id: maps
+  contents: 
+    - "metadata.yml"
+  sort: date desc
+  type: grid
+  grid-columns: 2
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [image, title, description]
+  image-height: "200"
+
+links:
+- icon: pin-map-fill
+  name: Interactive Map
+  url: http://tiny.cc/ccdsips2025
+- icon: qr-code
+  name: QR code
+  url: /project/2024-06-16-ccd-sips/qr_code.png
+- icon: pencil-fill
+  name: Map tutorial
+  url: /blog/2022-05-31-ccd-sips
+- icon: calendar-check
+  name: Workshop
+  url: /talk/2022-09-29-ccd-sips
+---
+
+
+## Map view
+
+<!--https://dannyda.com/2021/06/09/how-to-make-html-iframe-responsive-iframe-height-equal-to-viewport-screen-height/-->
+<style>
+iframe {
+display: block;
+background: #FFFBF2;
+border: none; /* Reset default border */
+height: 60vh; /* Viewport-relative units */
+width: 100%;
+}
+</style>
+<iframe src="_2025/map.html" scrolling="no">
+</iframe> 
+
+## Table view
+
+```{r}
+#| label: table
+#| echo: false
+
+year <- paste0("_", "2025")
+
+source(here::here("project", "2024-06-16-ccd-sips", "R", "ccd_sips_functions.R"))
+
+specials <- readr::read_rds(here::here("project", "2024-06-16-ccd-sips", year, "specialsGeocoded.Rds"))
+
+create_table(specials, page_length = 10)
+```
+
+
+## Past years
+
+<!-- start of grid layout -->
+
+:::: {.grid}
+
+::: {.g-col-12}
+
+::: {#maps}
+:::
+
+:::
+
+::::
+
+<!-- end of grid layout -->
