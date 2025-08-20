@@ -1,67 +1,35 @@
 ---
-title: "Silvia Canelón"
-subtitle: Data Scientist & Journalist
-image: sidebar/avatar.png
-image-alt: "Smiling woman with a tan complexion, dark eyes, and dark long wavy hair styled to one side"
+title: "James Le Houx"
+subtitle: "Materials Engineer | Battery Scientist | Beamline Tinkerer"
+image: sidebar/avatar.jpg
+image-alt: "X-ray fluorescence nanoprobe mapping of Vanadium (red) and Zinc (blue) k-edges at 100nm resolution for a next generation Zn-ion battery cathode"
 about:
   template: trestles
   image-width: 14em
   image-shape: rounded
   id: hero-heading
   links:
-    - text: "{{< fa universal-access >}}"
-      aria-label: "Accessibility statement"
-      href: accessibility.qmd
-    - text: "{{< fa brands bluesky >}}"
-      aria-label: "Bluesky"
-      href: https://bsky.app/profile/silviacanelon.com
     - icon: linkedin
       aria-label: "LinkedIn"
-      href: https://linkedin.com/in/spcanelon
+      href: https://www.linkedin.com/in/jameslehoux/
     - icon: github
       aria-label: GitHub
-      href: https://github.com/spcanelon
-    # - icon: mastodon
-    #   href: https://hachyderm.io/@spcanelon
+      href: https://github.com/jameslehoux
     - text: "{{< ai orcid >}}"
-      href: https://orcid.org/0000-0003-1709-1394
+      href: https://orcid.org/0000-0002-1576-0673
     - text: "{{< ai google-scholar >}}"
       aria-label: "Google Scholar"
-      href: https://scholar.google.com/citations?user=GAzkvpcAAAAJ&hl=en&oi=ao
+      href: https://scholar.google.com/citations?user=m4oegGQAAAAJ&hl=en
+    - text: "{{< fa brands bluesky >}}"
+      aria-label: "Bluesky"
+      href: https://bsky.app/profile/thebeamline.bsky.social
     - text: "{{< fa envelope >}}"
-      aria-label: Newsletter
-      href: https://buttondown.com/spcanelon
+      aria-label: "Contact"
+      href: contact.qmd
 listing: 
-- id: blog
-  contents: 
-    - "../blog/*/index.qmd"
-    - "../blog/*/index.markdown"
-  sort: date desc
-  type: grid
-  grid-columns: 1
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, subtitle, image]
-  max-items: 1
-  image-height: "200"
-- id: talk
-  contents: 
-    - "../talk/*/index.qmd"
-    - "../talk/*/index.markdown"
-  sort: date desc
-  type: grid
-  grid-columns: 1
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, subtitle, image]
-  max-items: 1
-  image-height: "200"
 - id: publication
   contents: 
     - "../publication/*/index.qmd"
-    - "../publication/*/index.markdown"
   sort: date desc
   type: grid
   grid-columns: 1
@@ -70,105 +38,53 @@ listing:
   filter-ui: false
   fields: [title, image]
   max-items: 1
-  image-height: "200"
-  image-placeholder: ../publication/featured.jpg
-- id: project
-  contents: 
-    - "../project/*/index.qmd"
-    - "../project/*/index.markdown"
-  sort: date desc
-  type: grid
-  grid-columns: 1
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, subtitle, image]
-  max-items: 1
-  image-height: "200"
 format: 
   html: 
     page-layout: full
-
-header-includes: >
-  <link rel="stylesheet" href="../assets/about.css">
-resources:
-  - ../assets/about.css
 ---
 
 ::: {#hero-heading}
-<div class="h1">Hey, I'm happy you're here</div>
 
-Thanks for stopping by!
+I'm a scientist and engineer focused on developing new ways to understand and improve energy storage materials.
 
-I work as a data scientist at the [Urban Health Lab](https://www.urbanhealthlab.org/) at the University of Pennsylvania. My research interests include applications of biomedical and spatial data science in the public and population health fields. 
+As a **Faraday Institution Emerging Leader Fellow**, I lead battery research across the UK's National Facilities, including the [ISIS Neutron and Muon Source](https://www.isis.stfc.ac.uk/), [Diamond Light Source](https://www.diamond.ac.uk/), and the [Central Laser Facilities](https://www.clf.stfc.ac.uk/). My work sits at the intersection of hands-on experimental science and high-performance computational modeling.
 
-My current projects use electronic health record (EHR) and geospatial data to explore how the neighborhood environment and access to urban nature can impact the health of individuals in Philadelphia. Learn more about my research interests in [publications](/publication).
+Beyond the lab, I run an energy storage consultancy and lead the development of [**OpenImpala**](https://github.com/kramergroup/openImpala), an open-source simulation package.
 
 Get in touch by [sending me a note](/contact.qmd)! {{< fa feather-pointed >}}
 
 :::
 
-## About me
+## About Me
 
 ::: {.grid}
 
 ::: {.g-col-6 #about-me-1}
 
-**Biomedical engineer turned informaticist, curious about all intersections of data and society.**
+### My Research
+My research is focused on method development for the physical characterisation of electrochemical devices. I specialise in combining *operando* experiments with advanced computational analysis to push the boundaries of what we can learn about batteries.
 
-I enjoy using [R](https://www.r-project.org/about.html) to optimize my data science workflow and have noticed it making guest appearances elsewhere in my life. I'm certified as an [RStudio Tidyverse Instructor](https://education.rstudio.com/trainers/people/canelon+silvia/) and am passionate about R education and data literacy as ways to build power in communities. Keep up with my R tinkering in my [blog](/blog) and presentations in [talks](/talk).
+#### Experimental Techniques
+Experimentally, I develop and apply techniques like coupled X-ray CT and diffraction, spectro-ptychography, and dark-field X-ray microscopy. I have successfully led 8 experiments as Principal Investigator and 14 as Co-Investigator at facilities in the UK and abroad.
 
-<ul class="fa-ul">
-   <li><span class="fa-li"><i class="fa-solid fa-certificate"></i></span><a href="https://education.rstudio.com/trainers/people/canelon+silvia/">Tidyverse Instructor Certification</a> ∙ RStudio, PBC ∙ 2020</li>
-</ul>
+#### Computational Methods
+Computationally, I build high-throughput data analysis pipelines using deep learning architectures (e.g., U-Net) and develop novel approaches like [super-resolution generative adversarial networks (SR-GANs)](https://www.nature.com/articles/s41597-025-04605-9).
 
 :::
 
 ::: {.g-col-6 #about-me-2}
 
-Prior to joining the Urban Health Lab, I developed novel data mining methods to extract meaningful information from the EHR and study health outcomes and disparities in pregnant populations. I'm particularly interested in research that combines biomedical data science with open data sources in ways that prioritize health equity in communities.
+### Background & Education
+I have a background in both industry and academia. Before my current fellowship, I was a **Beamline Scientist** at [Diamond Light Source](https://www.diamond.ac.uk/), where I led technique development for scattering tomography. I began my career as a **Design Engineer** at [Xtrac Ltd.](https://www.xtrac.com/), leading a design project for a top-tier motorsport gearbox.
 
 <ul class="fa-ul">
-   <li><span class="fa-li"><i class="fa-solid fa-certificate"></i></span><a href="https://www.med.upenn.edu/mbmi/certificate.html">Certificate in Biomedical Informatics</a> ∙ University of Pennsylvania ∙ 2019</li>
-   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>Ph.D. in Biomedical Engineering ∙ Purdue University ∙ 2018</li>
-   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>B.S. in Biomedical Engineering ∙ University of Minnesota ∙ 2012</li>
+    <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>**Ph.D. in Energy Storage and its Applications** ∙ University of Southampton ∙ 2021</li>
+    <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>**MEng in Mechanical Engineering (1st Class)** ∙ University of Southampton ∙ 2016</li>
+    <li><span class="fa-li"><i class="fa-solid fa-certificate"></i></span>**Association of Project Management (APM) - PFQ** ∙ Provek ∙ 2023</li>
+    <li><span class="fa-li"><i class="fa-solid fa-briefcase"></i></span>**Chartered Engineer (CEng)** ∙ IMechE</li>
 </ul>
 
 :::
 
 :::
-<!-- end grid -->
 
-## Lately ...
-
-:::: {.grid}
-
-::: {.g-col-3}
-#### Blog
-::: {#blog}
-:::
-[See all &rarr;](../blog){.about-links .subtitle}
-:::
-
-::: {.g-col-3}
-#### Talks
-::: {#talk}
-:::
-[See all &rarr;](../talk){.about-links .subtitle}
-:::
-
-::: {.g-col-3}
-#### Publications
-::: {#publication}
-:::
-[See all &rarr;](../publication){.about-links .subtitle}
-:::
-
-::: {.g-col-3}
-#### Projects
-::: {#project}
-:::
-[See all &rarr;](../project){.about-links .subtitle}
-:::
-
-::::

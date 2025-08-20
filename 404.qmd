@@ -1,9 +1,23 @@
 ---
-title: "404"
+title: "Page Not Found"
+pagetitle: "404 - Page Not Found"
+format: html
 ---
 
-# Oh no! That page is nowhere to be found <i class="fas fa-search pr2"></i>
+::: {.text-center .mt-5 .mb-5}
 
-It might have been removed, renamed, or has mysteriously disappeared. 
+# 404: Page Not Found
 
-Head back to the [homepage](/) to try finding it again, or try using the search feature.
+{{< fa regular-compass size=3x >}}
+
+### It seems you've ventured into uncharted territory.
+
+The page you were looking for might have been moved, renamed, or never existed. Let's get you back on track.
+
+You can return to the **[homepage](index.qmd)** to start fresh, or use one of the helpful links below.
+
+---
+
+[Explore My Publications](publication/index.qmd) &middot; [Learn About Me](about/index.qmd) &middot; [Get in Touch](contact.qmd)
+
+:::

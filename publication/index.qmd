@@ -1,8 +1,8 @@
 ---
 title: "Publications" 
 description: |
-  This is home for my research publications, each linked with<br>
-  accompanying preprints, posters, and/or news pieces.
+  My portfolio of peer-reviewed research publications and preprints,<br>
+  with accompanying posters, presentations and/or news pieces.
 listing: 
   contents: 
     - "**/index.qmd"
@@ -13,7 +13,7 @@ listing:
   categories: false
   sort-ui: false
   filter-ui: false
-  fields: [title, author, categories, date]
+  fields: [title, author, categories, date, journal.title]
   image-align: left
   # image-height: 10em
   # page-size: 5

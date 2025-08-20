@@ -1,0 +1,30 @@
+---
+title: "X-ray tomography for lithium ion battery electrode characterisation — A review"
+author:
+- name: <b>James Le Houx</b>
+  orcid: 0000-0002-1576-0673
+- Denis Kramer
+date: '2021-05-01'
+slug: xray-tomography-li-ion-review
+image: ../featured.jpg
+css-class: publication-page
+categories:
+  - X-ray tomography (XCT)
+  - Batteries
+  - Operando analysis
+  - Review
+journal: 
+  title: "Energy Reports"
+  url: "https://doi.org/10.1016/j.egyr.2021.02.063"
+  status: Published
+description: 'A review of studies using X-ray tomography to characterize lithium-ion battery electrode structures at both the cell and microstructure scales.'
+subtitle: 'This paper reviews the use of X-ray tomography to investigate macroscopic design parameters and structural defects in Li-ion cells, as well as for quantitative analysis of microstructural properties like particle size, tortuosity, and volume fraction, covering various techniques from ex-situ to multimodal imaging.'
+links:
+- icon: file-richtext-fill
+  name: Publication
+  url: https://doi.org/10.1016/j.egyr.2021.02.063
+---
+
+## Abstract
+
+In recent years, x-ray tomography has emerged as a powerful analytical tool for the study of lithium ion batteries and the processes occurring within. A region of specific interest is the electrode and, in particular, the heterogeneous and porous structure. The present paper is a review of studies that use x-ray tomography to characterise electrode structure, at both the cell and microstructure scales. At the cell level, x-ray tomography is used to investigate macroscopic design parameters, such as anode and cathode thicknesses, packing density and alignment of assembled cells, as well as to visualise any macroscopic structural defects, such as islanding. At the microstructure level, x-ray tomography allows for quantitative analysis of electrode structures to ascertain parameters such as particle size, tortuosity and volume fraction. The paper also explores different techniques that have been used across the field, from ex-situ, in-situ and operando techniques, to multimodal imaging methods, tomography informed design and results informed imaging.

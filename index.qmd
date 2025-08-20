@@ -1,43 +1,33 @@
----
-title: "Silvia Canelón, PhD"
-pagetitle: "Silvia Canelón, PhD"
-subtitle: "Data Scientist at the University of Pennsylvania"
-image: assets/silvia/img/skyline-philly-dual.png
-image-alt: "Abstract data visualization depicting tall buildings in Philadelphia as a circle. The text inside the circle reads Philadelphia Skyline"
 
-twitter-card:
-    title: Silvia Canelón, PhD
-    description: |
-      Researcher, educator, and journalist with data science expertise.
-    image: assets/silvia/img/silvia-social.png
+---
+title: "James Le Houx"
+pagetitle: "James Le Houx"
+subtitle: "Materials Engineer | Battery Scientist | Beamline Tinkerer"
+image: assets/xrf_map.png
+image-alt: "X-ray fluorescence nanoprobe mapping of Vanadium (red) and Zinc (blue) k-edges at 100nm resolution for a next generation Zn-ion battery cathode"
 
 about:
   template: solana
   image-width: 28em
   id: hero-heading
   links:
-    - text: "{{< fa universal-access >}}"
-      aria-label: "Accessibility statement"
-      href: accessibility.qmd
-    - text: "{{< fa brands bluesky >}}"
-      aria-label: "Bluesky"
-      href: https://bsky.app/profile/silviacanelon.com
     - icon: linkedin
       aria-label: "LinkedIn"
-      href: https://linkedin.com/in/spcanelon
+      href: https://www.linkedin.com/in/jameslehoux/
     - icon: github
       aria-label: GitHub
-      href: https://github.com/spcanelon
-    # - icon: mastodon
-    #   href: https://hachyderm.io/@spcanelon
+      href: https://github.com/jameslehoux
     - text: "{{< ai orcid >}}"
-      href: https://orcid.org/0000-0003-1709-1394
+      href: https://orcid.org/0000-0002-1576-0673
     - text: "{{< ai google-scholar >}}"
       aria-label: "Google Scholar"
-      href: https://scholar.google.com/citations?user=GAzkvpcAAAAJ&hl=en&oi=ao
+      href: https://scholar.google.com/citations?user=m4oegGQAAAAJ&hl=en 
+    - text: "{{< fa brands bluesky >}}"
+      aria-label: "Bluesky"
+      href: https://bsky.app/profile/thebeamline.bsky.social
     - text: "{{< fa envelope >}}"
-      aria-label: Newsletter
-      href: https://buttondown.com/spcanelon
+      aria-label: "Contact"
+      href: contact.qmd
 page-layout: full
 
 execute: 
@@ -47,6 +37,7 @@ execute:
 
 header-includes: >
   <link rel="stylesheet" href="assets/index.css">
+
 resources:
   - assets/index.css
 ---
@@ -56,24 +47,11 @@ resources:
 
 ::: {#hero-heading}
 
-I am a researcher, R educator, and data journalist with a love for community. My **research** leverages electronic health record and spatial data to study the intersection of health equity and urban nature. My **journalism** and **community** projects value the partnership between open source tools and data literacy as a way to build power and effect change.
+As a Faraday Institution/STFC **Emerging Leader Fellow** , I lead battery characterisation research across the UK's National Facilities. My work combines particle/matter experiments with **artificial intelligence** and modellling to create autonomous, high-throughput analysis pipelines that accelerate the discovery of next-generation **energy materials**.
 
-[Learn more about me &rarr;](/about){.about-links .subtitle}
+[X-ray fluorescence map of a next-generation Zn-ion battery cathode (V K-edge in red, Zn K-edge in blue), 100nm pixel size.]{.image-caption}
+
+[Explore My Research &rarr;](about/index.qmd){.about-links .subtitle}
 
 :::
 <!-- hero-heading -->
-
-```{r write-manual-redirects}
-#| eval: true
-
-manual_redirects <-
-  readr::read_table(here::here("static", "_manualredirects.txt"),
-                    col_names = FALSE) |> 
-  dplyr::mutate(redirect = paste0(X1, " ", X2, " ", X3))
-
-manual_redirects <- manual_redirects$redirect
-
-# write the _redirect file
-writeLines(manual_redirects, here::here("_site", "_redirects"))
-
-```
