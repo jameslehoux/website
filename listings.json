@@ -1,0 +1,36 @@
+[
+  {
+    "listing": "/about/index.html",
+    "items": [
+      "/publication/2025-08-14-operando-xct-assb/index.html",
+      "/publication/2025-07-03-xray-soil-mechanics/index.html",
+      "/publication/2025-02-24-multimodal-synchrotron-ml/index.html",
+      "/publication/2023-11-27-xct-xylella-resistance/index.html",
+      "/publication/2023-07-26-effective-diffusivity-porous-media/index.html",
+      "/publication/2022-08-01-soluble-lead-flow-battery/index.html",
+      "/publication/2022-05-30-liiondb-dfn-model/index.html",
+      "/publication/2021-07-01-openimpala-solver/index.html",
+      "/publication/2021-05-01-xray-tomography-li-ion-review/index.html",
+      "/publication/2020-05-01-porous-li-ion-electrode-review/index.html",
+      "/publication/2020-01-01-tomography-resolution-microstructure/index.html",
+      "/publication/2019-06-20-lto-cnt-supercapacitor/index.html"
+    ]
+  },
+  {
+    "listing": "/publication/index.html",
+    "items": [
+      "/publication/2025-08-14-operando-xct-assb/index.html",
+      "/publication/2025-07-03-xray-soil-mechanics/index.html",
+      "/publication/2025-02-24-multimodal-synchrotron-ml/index.html",
+      "/publication/2023-11-27-xct-xylella-resistance/index.html",
+      "/publication/2023-07-26-effective-diffusivity-porous-media/index.html",
+      "/publication/2022-08-01-soluble-lead-flow-battery/index.html",
+      "/publication/2022-05-30-liiondb-dfn-model/index.html",
+      "/publication/2021-07-01-openimpala-solver/index.html",
+      "/publication/2021-05-01-xray-tomography-li-ion-review/index.html",
+      "/publication/2020-05-01-porous-li-ion-electrode-review/index.html",
+      "/publication/2020-01-01-tomography-resolution-microstructure/index.html",
+      "/publication/2019-06-20-lto-cnt-supercapacitor/index.html"
+    ]
+  }
+]
