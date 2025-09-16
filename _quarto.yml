@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "![James Le Houx - Research Logo](/assets/logo.svg){height=50px} JAMES LE HOUX"
+  title: "![James Le Houx - Research Logo](/assets/logo.png){height=50px} JAMES LE HOUX"
   site-url: https://jameslehoux.com
   description: "Researcher and Emerging Leader in battery characterisation, synchrotron science, and computational modeling."
   favicon: /assets/logo.svg
