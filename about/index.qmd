@@ -43,11 +43,15 @@ My research combines operando synchrotron experiments with AI and high-performan
 
 **Senior Lecturer & BASE Lab Lead** · University of Greenwich · 2025--present
 
-**Emerging Leader Fellow** · RAL / Faraday Institution · 2024--2027
+**Emerging Leader Fellow** (£407k) · RAL / Faraday Institution · 2024--2027
+
+**Visiting Scientist** · Diamond Light Source / University of Southampton · 2024--present
 
 **Beamline Scientist** · Diamond Light Source / NXCT · 2023--2024
 
 **Postdoctoral Researcher** · Diamond Light Source / Imperial College · 2021--2023
+
+**Postdoctoral Researcher, Ada Lovelace Centre** · Diamond Light Source · 2021--2022
 
 **Design Engineer** · Xtrac Ltd. (LMP1 motorsport) · 2014--2016
 
@@ -57,15 +61,32 @@ My research combines operando synchrotron experiments with AI and high-performan
 
 **MEng, Mechanical Engineering (1st Class)** · University of Southampton · 2016
 
-**Chartered Engineer (CEng)** · IMechE
+**Chartered Engineer (CEng)** · IMechE · Member of RMS and ACS
 
-## Selected Roles
+## Facility Access
 
-- Lead author, Faraday Focus ten-year research strategy for UK National Facilities
-- Member, ISIS Science Council
-- Advisor to DSIT on AI data standards for materials science
-- Selected by Stanford/SLAC as one of 30 UK leaders for US-UK energy storage initiative
-- Invited reviewer for €7.5M ERC Synergy Grant
+Principal Investigator on 9 flagship experiments (~£1.7M in-kind value) at Diamond, ISIS, and Sirius, including the UK Battery Imaging BAG. Co-Investigator on 22 further experiments.
+
+Invited to commission flagship instruments internationally: first external user of the MOGNO beamline (Sirius, Brazil), second external user of the dark-field X-ray microscope (ID03, ESRF), and second external user of the high-resolution neutron imaging beamline (PorTo, ILL).
+
+## Funding
+
+- Faraday Institution / STFC Emerging Leader Fellowship — £407k (2024--2027)
+- STFC funding for OpenImpala deployment at DIAD beamline — £147k (2021--2022)
+
+## Strategy & Policy
+
+- Lead author, **Faraday Focus** ten-year research strategy for UK National Facilities (Diamond, ISIS, CLF)
+- Lead, STFC / Faraday / Google taskforce on emerging AI research capabilities
+- Advisor to **DSIT** on AI data standards for materials science
+- Director, cross-institutional network across 27 universities for AI-driven battery R&D
+- Selected by **Stanford / SLAC** as one of 30 UK leaders for US-UK energy storage initiative
+- Member, **ISIS Science Council**, advising on science direction for the £100M spallation source
+- Invited reviewer for **€7.5M ERC Synergy Grant**
 - Secretary, Diamond Light Source Imaging Peer Review Panel (2021--2024)
-- Invited speaker, BBC Radio 4 *The Life Scientific*
-- Session Chair, ACS National Meeting; Co-chair, IBSIM-4i (IoP) and Microscience Microscopy Congress (RMS)
+
+## Teaching & Public Engagement
+
+- Invited speaker, **BBC Radio 4** *The Life Scientific*; featured expert in the **Financial Times**
+- Conceived and lead the **Faraday Institution Masterclass** series — national curriculum on advanced characterisation, 1000+ attendees
+- Session Chair, **ACS National Meeting**; Co-chair, **IBSIM-4i** (IoP) and **Microscience Microscopy Congress** (RMS)
