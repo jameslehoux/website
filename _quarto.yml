@@ -55,8 +55,8 @@ format:
         - cosmo
         - assets/james-theme-dark.scss
     highlight-style:
-      light: assets/james/a11y-light.theme
-      dark: assets/james/a11y-dark.theme
+      light: a11y
+      dark: a11y
     code-link: false
     include-in-header:
     -   text: |
