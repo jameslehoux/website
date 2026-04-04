@@ -1,9 +1,9 @@
 ---
-pagetitle: "James Le Houx - Contact"
+pagetitle: "BASE Lab - Contact"
 name: "Contact Form"
 page-layout: article
-format: 
-  html: 
+format:
+  html:
     grid:
       margin-width: 0px
       sidebar-width: 0px
@@ -18,11 +18,14 @@ resources:
 
 ::: {.g-col-5 #note}
 
-# Get in Touch {{< fa solid envelope >}}
+# Contact {{< fa solid envelope >}}
 
-Feel free to use this form for **collaborations**, **speaking invitations**, or inquiries about my research and software (e.g., **OpenImpala**). 
+For enquiries about **collaborations**, **joining the lab**, or our **research and software**, use the form or email directly.
 
-I also welcome any feedback on making my work more accessible.
+**Dr James Le Houx**
+[james.lehoux@gre.ac.uk](mailto:james.lehoux@gre.ac.uk)
+
+University of Greenwich · Rutherford Appleton Laboratory
 
 <br>
 
@@ -32,7 +35,6 @@ I also welcome any feedback on making my work more accessible.
 <a class="link-dark me-1" href="https://github.com/jameslehoux" title="GitHub" target="_blank" rel="noopener">{{< fa brands github >}}</a>
 <a class="link-dark me-1" href="https://orcid.org/0000-0002-1576-0673" title="ORCID" target="_blank" rel="noopener">{{< ai orcid >}}</a>
 <a class="link-dark me-1" href="https://scholar.google.com/citations?user=m4oegGQAAAAJ&hl=en" title="Google Scholar" target="_blank"rel="noopener">{{< ai google-scholar >}}</a>
-<a class="link-dark me-1" href="mailto:james.le-houx@stfc.ac.uk" title="Email" target="_blank" rel="noopener">{{< fa solid envelope >}}</a>
 
 :::
 
@@ -41,9 +43,9 @@ I also welcome any feedback on making my work more accessible.
 
 ::: {.g-col-6 #form}
 
-<form 
-  action="https://formspree.io/f/mdkdrlqn" 
-  method="POST" 
+<form
+  action="https://formspree.io/f/mdkdrlqn"
+  method="POST"
   accept-charset="utf-8">
 
   <label for="full-name">Full Name</label>
@@ -53,9 +55,9 @@ I also welcome any feedback on making my work more accessible.
   <input type="email" name="_replyto" id="email-address" class="form-control" placeholder="your@email.com" required>
 
   <label for="message">Message</label>
-  <textarea rows="6" name="message" id="message" class="form-control" placeholder="Please type your message here." required></textarea>
+  <textarea rows="6" name="message" id="message" class="form-control" placeholder="Your message" required></textarea>
 
-  <input type="hidden" name="_subject" value="New message from your website!">
+  <input type="hidden" name="_subject" value="New message from BASE Lab website">
   <button type="submit" class="btn btn-primary mt-4">Send Message</button>
 </form>
 

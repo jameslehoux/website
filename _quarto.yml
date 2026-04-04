@@ -2,49 +2,53 @@ project:
   type: website
 
 website:
-  title: "![James Le Houx - Research Logo](/assets/logo.png){height=50px} JAMES LE HOUX"
+  title: "![BASE Lab](/assets/logo.png){height=50px} BASE LAB"
   site-url: https://jameslehoux.com
-  description: "Researcher and Emerging Leader in battery characterisation, synchrotron science, and computational modeling."
+  description: "Beamlines for Autonomous Science and Engineering. Developing self-driving microscopes and AI-piloted characterisation at national facilities."
   favicon: /assets/logo.svg
   page-navigation: true
   back-to-top-navigation: true
-  
+
   navbar:
     tools:
     - icon: github
       href: https://github.com/jameslehoux
     - theme-toggle: true
     right:
-      - text: About
-        href: about/index.qmd
+      - text: Research
+        href: research/index.qmd
+      - text: People
+        href: people/index.qmd
       - text: Publications
         href: publication/index.qmd
-  
-  page-footer:   
+      - text: Opportunities
+        href: opportunities/index.qmd
+      - text: Contact
+        href: contact.qmd
+
+  page-footer:
     left: >-
-      © 2025 James Le Houx · Made with [Quarto](https://quarto.org)
+      © 2025 BASE Lab · Made with [Quarto](https://quarto.org)
     center: |
-      <a class="link-dark me-1" href="https://bsky.app/profile/thebeamline.bsky.social" title="Bluesky" target="_blank" rel="noopener">{{< fa brands bluesky >}}</a> 
-      <a class="link-dark me-1" href="https://linkedin.com/in/jameslehoux/" title="LinkedIn" target="_blank" rel="noopener">{{< fa brands linkedin >}}</a> 
-      <a class="link-dark me-1" href="https://github.com/jameslehoux" title="github" target="_blank" rel="noopener">{{< fa brands github >}}</a> 
+      <a class="link-dark me-1" href="https://bsky.app/profile/thebeamline.bsky.social" title="Bluesky" target="_blank" rel="noopener">{{< fa brands bluesky >}}</a>
+      <a class="link-dark me-1" href="https://linkedin.com/in/jameslehoux/" title="LinkedIn" target="_blank" rel="noopener">{{< fa brands linkedin >}}</a>
+      <a class="link-dark me-1" href="https://github.com/jameslehoux" title="github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
       <a class="link-dark me-1" href="https://orcid.org/0000-002-1576-0673" title="orcid" target="_blank" rel="noopener">{{< ai orcid >}}</a>
       <a class="link-dark me-1" href="https://scholar.google.com/citations?user=m4oegGQAAAAJ&hl=en" title="Google Scholar" target="_blank"rel="noopener">{{< ai google-scholar >}}</a>
-    right: 
+    right:
       - text: "Accessibility"
         href: accessibility.qmd
-      - text: "Contact"
-        href: contact.qmd
       - text: "License"
         href: license.qmd
       - text: "· Design inspired by Silvia Canelón"
 
-format: 
+format:
   html:
     theme:
       light:
         - cosmo
         - assets/james-theme-light.scss
-      dark: 
+      dark:
         - cosmo
         - assets/james-theme-dark.scss
     highlight-style:
@@ -59,5 +63,5 @@ format:
     pagetitle: "{{< meta title >}}"
     lightbox: true
 
-execute: 
+execute:
   freeze: auto
