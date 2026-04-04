@@ -1,0 +1,19 @@
+---
+title: "Articles"
+pagetitle: "BASE Lab - Articles"
+description: "Writing on science, engineering, and the future of autonomous experimentation."
+listing:
+  contents:
+    - "*/index.qmd"
+  sort: date desc
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, author, categories, date, description]
+  image-align: left
+format:
+  html:
+    page-layout: full
+    css: ../assets/listing-default.css
+---

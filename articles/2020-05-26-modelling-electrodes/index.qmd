@@ -1,0 +1,46 @@
+---
+title: "Modelling Electrodes: Your Guide to the Latest Fashions and Trends for Summer 2020"
+author:
+- name: <b>James Le Houx</b>
+  orcid: 0000-0002-1576-0673
+date: '2020-05-26'
+slug: modelling-electrodes
+image: ../featured.jpg
+css-class: publication-page
+categories:
+  - Science communication
+  - Battery modelling
+  - Image-based modelling
+description: 'A guide to the different approaches for modelling battery electrodes, from atomistic to system-level — and why image-based modelling matters.'
+subtitle: 'Originally published on Medium.'
+links:
+- icon: file-richtext-fill
+  name: Related Paper
+  url: https://doi.org/10.1016/j.egyr.2020.02.021
+---
+
+> "All models are wrong, but some are useful" — George Box
+
+Mathematical models are one of the key tools used by scientists and engineers to help understand the world around us. Batteries are no exception. Models are used across the whole range of length scales: from right down at the atomistic level where models are used to discover new materials, up to the system level, where whole electric vehicles are modelled or even our country's entire electricity grid.
+
+As we move from left to right along that scale we increase the amount of assumptions we use. At the atomistic level, density functional theory (often abbreviated as DFT) is used. DFT calculates atomic forces from first principles by approximating the Schrodinger equation, this includes the electrons.
+
+If you approximate those atomic forces by treating the atoms as classical particles you can model larger systems, this is known as molecular dynamics (MD).
+
+If you then approximate these particles as a continuous flow, you reach continuum modelling. You've lost the interactions between particles but can now go bigger still.
+
+Finally, you get to system level modelling, where you may not even be using physical equations to model a system but can still extract important information. The tube map is a famous example of this. It tells me nothing about the distance or location but still gives you enough information to travel around.
+
+The point of this is to show that there is no swiss army knife of models that can do it all. Scientists can get quite hung up on why their model is the greatest, but it's important to recognise that they all have their own merits and drawbacks. And with that said, let me show you why mine is the best.
+
+## Image-Based Modelling
+
+Sadly I'm not talking about appearance obsessed individuals, but instead about mathematical models that are carried out on real image data. This has been a real hot-bed of research activity in the last few years and for good reason.
+
+Since the early 90's, battery continuum modelling has been completely dominated by something known as the Doyle, Fuller, Newman model. It's a testament to John Newman and his team that 30 years later it's still the de facto answer for how to model a lithium-ion battery. But, like all models, it makes some assumptions.
+
+Key of which is that it uses the Bruggeman correlation. The Bruggeman correlation is a mathematical equation that relates the porosity of a structure to its tortuosity. Tortuosity is used in this case to define how easy/hard it is for a fluid to diffuse through a porous structure, in this case lithium ions diffusing through the porous electrode.
+
+The trouble is the Bruggeman correlation relies on the structure being regular, and electrodes very rarely are! One way to get around this is to do image-based modelling. This is where 3-dimensional image data of the electrode microstructure is captured and then physical equations are solved using this 3D information. This comes at a computational price though; common 3D images consist of 1000 x 1000 x 1000 3D pixels, so you'd be solving on 1 billion points! To get around this, we use assumptions, just like in the models I listed above; and different researchers use different approaches.
+
+So to try and shed some light on this I put these different approaches together in a [paper](https://doi.org/10.1016/j.egyr.2020.02.021). If you're interested in how the different approaches work, you can find out more there.
