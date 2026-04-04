@@ -1,0 +1,92 @@
+---
+title: "People"
+pagetitle: "BASE Lab - People"
+page-layout: full
+format:
+  html:
+    grid:
+      margin-width: 0px
+      sidebar-width: 0px
+---
+
+## Principal Investigator
+
+### James Le Houx
+
+Senior Lecturer, University of Greenwich · Faraday Institution / STFC Emerging Leader Fellow
+
+James founded the BASE Lab in 2025. His research develops autonomous X-ray imaging platforms for energy materials, combining synchrotron experiments with AI and high-performance simulation. He holds a PhD from the University of Southampton and is a Chartered Engineer (CEng, IMechE). Before academia, he was a design engineer in top-tier motorsport (Xtrac Ltd.) and a beamline scientist at Diamond Light Source.
+
+He leads the UK's Battery Imaging BAG at Diamond Light Source, serves on the ISIS Science Council, and advises DSIT on AI data standards for materials science. He developed the Faraday Engine, a national initiative connecting UK Exascale computing to national facilities.
+
+[{{< fa brands linkedin >}}](https://www.linkedin.com/in/jameslehoux/) · [{{< ai orcid >}}](https://orcid.org/0000-0002-1576-0673) · [{{< ai google-scholar >}}](https://scholar.google.com/citations?user=m4oegGQAAAAJ&hl=en) · [{{< fa brands github >}}](https://github.com/jameslehoux)
+
+---
+
+## PhD Students
+
+### Calum Green
+
+*Applications of Deep Learning for Super-Resolution and Data Fusion of 3D X-ray Imaging Datasets for Materials Characterisation*
+
+Imperial College London · Co-supervised with Prof. Daniele Dini · Completing July 2026
+
+Calum develops generative super-resolution methods and multi-modal data fusion pipelines for synchrotron X-ray imaging. His work includes EXG-GAN, a generative adversarial network for upsampling spatially resolved 3D tomographic data, and methods for fusing XRD-CT and XCT datasets for autonomous materials segmentation. He is building [OpenLSR-X](https://github.com/jameslehoux), an open-source PyTorch package for learnable super-resolution of XCT data.
+
+**Available for postdoctoral or industry positions from July 2026.** Contact Calum or James to discuss.
+
+**Key publication:** [Three-dimensional, multimodal synchrotron data for machine learning applications](https://doi.org/10.1038/s41597-025-04605-9) — *Scientific Data* (2025)
+
+---
+
+### Jon Valijonov
+
+*Data-Driven Image Mechanics (D2IM): A Deep Learning Approach to Predict Displacement and Strain Fields in Biological Tissues from X-ray Tomography*
+
+University of Greenwich · Co-supervised with Prof. Gianluca Tozzi and Dr Peter Soar
+
+Jon is developing D2IM, a deep learning framework that predicts full-field displacement and strain directly from undeformed X-ray tomography images. His initial results show that direct strain prediction significantly outperforms displacement-derived approaches, reducing false-positive high-strain classifications by 75%. The project is expanding D2IM to a range of hard and soft biological tissues and loading scenarios, using Greenwich's InCiTe 3D X-ray microscope for sub-micron resolution phase-contrast imaging.
+
+**First preprint:** [D2IM-Strain (bioRxiv, 2026)](https://doi.org/10.64898/2026.03.31.715417)
+
+---
+
+### Isabella Florez
+
+*Quantum-AI Synergy for Next-Generation Imaging of Biological Tissues*
+
+University of Greenwich
+
+Isabella is investigating quantum-native representations of biological tissue images to enable AI operations — classification, segmentation, measurement, and multi-modal data fusion — that are intractable with classical approaches alone. Her work surveys hybrid quantum-classical architectures for biomedical imaging and is developing toward Quantum Image Correlation (QuIC), a quantum extension of digital volume correlation for high-dimensional volumetric data.
+
+---
+
+## MSc Students (2025--26)
+
+### Asif Ali
+
+*Generative AI for Digital Twins of Battery Electrodes*
+
+University of Greenwich
+
+Asif is training diffusion models on 3D X-ray tomograms of anisotropic battery electrodes (carbon felt) to generate synthetic microstructures that are statistically indistinguishable from real data. The generated volumes will serve as inputs for physics-based simulation with OpenImpala, addressing the data scarcity bottleneck in computational materials science. Running on Isambard-AI.
+
+---
+
+### Ali Butt
+
+*The Battery Explorer: Interactive Web-Based Dashboard for 4D Scientific Data*
+
+University of Greenwich
+
+Ali is building an interactive web application for exploring 4D battery tomography data — scrubbing through time, rotating 3D volumes, and viewing synchronised derived quantities (e.g., crack volume vs. cycle number). The tool is designed to make large-scale operando datasets accessible to experimentalists without specialist visualisation software.
+
+---
+
+### Insha Amreen
+
+*Guided Super-Resolution for Multimodal Scientific Imaging*
+
+University of Greenwich
+
+Insha is developing guided super-resolution methods that use high-resolution structural data (XCT) to intelligently upsample low-resolution chemical maps (XRD-CT), producing unified high-resolution datasets containing both structural and chemical information. The work builds on the [FeatUp](https://arxiv.org/abs/2403.10516) framework and our group's [multimodal synchrotron dataset](https://doi.org/10.1038/s41597-025-04605-9).

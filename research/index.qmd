@@ -1,0 +1,52 @@
+---
+title: "Research"
+pagetitle: "BASE Lab - Research"
+page-layout: full
+format:
+  html:
+    grid:
+      margin-width: 0px
+      sidebar-width: 0px
+---
+
+Our research sits at the intersection of synchrotron science, artificial intelligence, and materials engineering. We develop the computational tools and experimental methods needed to make autonomous X-ray characterisation a reality.
+
+---
+
+## Self-Driving Microscopes
+
+The core challenge: stochastic failure events in batteries (dendrite initiation, crack propagation, short-circuiting) are rare, fast, and invisible to pre-programmed experiments. We are building autonomous platforms where an AI pilot uses physics-based digital twins to steer beamlines in real-time, predicting and capturing these events as they happen.
+
+This requires solving several coupled problems: training Graph Neural Networks to distinguish benign aging from true failure precursors, building simulation engines fast enough for real-time inference, and designing the control architecture that connects prediction to instrument action. We defined the operational requirements for this in the [BASE Scale](https://doi.org/10.48550/arXiv.2601.06978), a taxonomy for autonomous experimentation at large-scale facilities.
+
+**Key papers:** [BASE Scale (arXiv, 2026)](/publication/2025-12-29-base-scale-autonomous-facilities/) · [Heuristic Operando Experimentation (arXiv, 2025)](/publication/2025-12-29-autonomous-battery-operando/)
+
+---
+
+## Operando Battery Characterisation
+
+We design and run multi-modal operando experiments at UK national facilities (Diamond Light Source, ISIS, Central Laser Facility) to study how batteries degrade under realistic conditions. Our methods combine X-ray computed tomography with diffraction, fluorescence, and scattering to capture both structure and chemistry simultaneously.
+
+As Principal Investigator, Le Houx leads the UK's Battery Imaging BAG at Diamond Light Source and has run 9 flagship experiments across Diamond, ISIS, and the Sirius synchrotron in Brazil.
+
+**Key papers:** [Operando XCT of All-Solid-State Batteries](/publication/2025-08-14-operando-xct-assb/) · [Coupled X-ray Imaging/Diffraction in Soil Mechanics](/publication/2025-07-03-xray-soil-mechanics/)
+
+---
+
+## Computational Imaging and Machine Learning
+
+We develop open-source computational tools to extract more information from 3D imaging data than conventional analysis allows:
+
+- **Super-resolution**: Generative adversarial networks (EXG-GAN / [OpenLSR-X](https://github.com/jameslehoux)) that decouple the resolution/field-of-view trade-off in X-ray tomography, enabling high-resolution imaging at reduced dose and acquisition time.
+- **Data fusion**: Methods to combine multi-modal, multi-resolution datasets (XCT + XRD-CT) into unified 3D maps of structure and chemistry.
+- **Image-based simulation**: [OpenImpala](https://github.com/kramergroup/openImpala), our open-source C++ solver for computing effective transport properties directly from tomographic images, achieving 100x speedups over commercial solvers.
+- **Data-driven mechanics**: D2IM-Strain, a deep learning framework (with Tozzi group, Greenwich) that predicts strain fields directly from undeformed XCT images, bypassing numerical differentiation and its associated noise.
+- **Generative microstructures**: Physics-constrained diffusion models and GANs for generating synthetic 3D electrode microstructures that are statistically indistinguishable from real tomographic data.
+
+**Key papers:** [Multimodal Synchrotron Data for ML (Scientific Data, 2025)](/publication/2025-02-24-multimodal-synchrotron-ml/) · [D2IM-Strain (bioRxiv, 2026)](/publication/2026-03-31-d2im-strain-bone/) · [OpenImpala (SoftwareX, 2021)](/publication/2021-07-01-openimpala-solver/)
+
+---
+
+## Quantum-AI for Scientific Imaging
+
+An emerging research direction exploring whether quantum computing can address the computational bottlenecks in high-dimensional imaging. We are investigating quantum-native representations of volumetric image data and hybrid quantum-classical architectures for tasks such as segmentation, classification, and image correlation. This includes the conceptual development of Quantum Image Correlation (QuIC) as a future extension of digital volume correlation.

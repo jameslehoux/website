@@ -1,0 +1,57 @@
+---
+title: "Opportunities"
+pagetitle: "BASE Lab - Opportunities"
+page-layout: full
+format:
+  html:
+    grid:
+      margin-width: 0px
+      sidebar-width: 0px
+---
+
+We are actively recruiting computational researchers to join the BASE Lab. If you are interested in autonomous experimentation, physics-informed machine learning, or synchrotron science, get in touch.
+
+---
+
+## Open PhD Position: The Self-Driving Microscope {#phd-sdm}
+
+**Predicting Stochastic Failure in Solid-State Batteries using Physics-Informed AI**
+
+*4-year fully funded studentship · University of Greenwich · Ref: M34Impact-MSE2*
+
+This PhD is the foundational computational element of an 8-year project to build an autonomous, AI-piloted X-ray imaging platform that hunts for hidden failure points in solid-state batteries in real-time. As the founding PhD student of the BASE Lab, you will:
+
+- **Build a multi-scale training dataset** from 3D X-ray tomograms of solid-state cells (Li-metal/Li₆PS₅Cl) acquired at Diamond Light Source (I13-2), capturing pristine, aged, and post-failure stages.
+- **Develop the core AI predictor** using Graph Neural Networks (GNNs) to distinguish benign aging from true failure precursors — features retrospectively confirmed as the origin of a crack.
+- **Integrate physics-based signatures** by using OpenImpala to transform static 3D porosity maps into dynamic maps of local tortuosity and ionic flux, giving the AI physically grounded features to learn from.
+- **Augment data with generative AI** using physics-constrained diffusion models and GANs to create synthetic microstructures that improve model generalisation against noisy experimental data.
+
+You will be co-supervised by Prof. Andrew Kao (validated simulation models) and Dr Mikhail Poluektov, and embedded in the M34Impact doctoral cohort. The lab has a computational core at Greenwich and an experimental hub at RAL, with direct access to Diamond Light Source and ISIS.
+
+### Funding
+
+- **Bursary:** £24,780/year (UKRI rate + £2,000 London weighting + £2,000 enhanced bursary), with annual uplifts
+- **Fees:** Covered at the University Home Rate (currently £5,006). International applicants may be fully covered for exceptional candidates.
+- **Start date:** September 2026
+
+### Requirements
+
+- 1st or Upper 2:1 in Computer Science, Physics, Materials Science, Engineering (or equivalent)
+- Strong Python programming skills
+- Motivation to learn machine learning and data science
+
+Experience with deep learning, 3D image data, or HPC is desirable but not required.
+
+### How to Apply
+
+**Deadline: 17 April 2026**
+
+Apply online via the [University of Greenwich application portal](https://www.gre.ac.uk/research/study/apply/application-process). Include reference number **M34Impact-MSE2** in your personal statement, along with a CV (with 2 referees) and academic transcripts.
+
+Contact [james.lehoux@gre.ac.uk](mailto:james.lehoux@gre.ac.uk) before applying to discuss the project.
+
+---
+
+## General Enquiries
+
+We welcome expressions of interest from prospective PhD students, postdocs, and visiting researchers at any time. If you have your own funding or want to discuss fellowship applications, please [get in touch](/contact.qmd).
