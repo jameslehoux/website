@@ -47,11 +47,11 @@ resources:
 
 ::: {#hero-heading}
 
-The BASE Lab builds autonomous X-ray imaging platforms for materials science. We develop AI agents and physics-based digital twins that pilot synchrotron beamlines in real-time, turning passive data collection into active, intelligent characterisation. Our current focus is on capturing the stochastic failure mechanisms in next-generation batteries.
+We build the software infrastructure to hardwire UK Exascale computing directly to beamlines. We replace deterministic testing schedules with autonomous, AI-driven control loops that navigate the search space of material degradation in real-time.
 
 [X-ray fluorescence map of a Zn-ion battery cathode (V K-edge in red, Zn K-edge in blue), 100 nm pixel size.]{.image-caption}
 
-Based at the [University of Greenwich](https://www.gre.ac.uk/) with an experimental hub at the [Rutherford Appleton Laboratory](https://www.ukri.org/about-us/stfc/locations/rutherford-appleton-laboratory/), we are part of the [M34Impact](https://www.gre.ac.uk/research/activity/m34impact/) centre and funded by the [Faraday Institution](https://www.faraday.ac.uk/) and [STFC](https://www.ukri.org/councils/stfc/).
+A joint research group between the [University of Greenwich](https://www.gre.ac.uk/) and the [Rutherford Appleton Laboratory](https://www.ukri.org/about-us/stfc/locations/rutherford-appleton-laboratory/). Part of [M34Impact](https://www.gre.ac.uk/research/activity/m34impact/), funded by the [Faraday Institution](https://www.faraday.ac.uk/) and [STFC](https://www.ukri.org/councils/stfc/).
 
 :::
 <!-- hero-heading -->

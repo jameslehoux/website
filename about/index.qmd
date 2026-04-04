@@ -1,6 +1,6 @@
 ---
 title: "James Le Houx"
-subtitle: "Principal Investigator · BASE Lab"
+subtitle: "Principal Investigator · BASE Lab · Beamline Tinkerer"
 image: sidebar/avatar.jpg
 image-alt: "James Le Houx"
 about:
