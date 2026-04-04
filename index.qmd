@@ -55,3 +55,17 @@ A joint research group between the [University of Greenwich](https://www.gre.ac.
 
 :::
 <!-- hero-heading -->
+
+## News
+
+**Apr 2026** — [PhD position open](/opportunities/#phd-sdm): *The Self-Driving Microscope*. Applications close 17 April.
+
+**Mar 2026** — Jon Valijonov's first preprint: [D2IM-Strain](/publication/2026-03-31-d2im-strain-bone/) on direct strain field prediction in bone.
+
+**Feb 2026** — [Fluid inclusions in natron](/publication/2026-02-19-natron-fluid-inclusions-enceladus/) submitted to Nature Portfolio — first observation of fluid inclusions in a mineral predicted on Enceladus.
+
+**Jan 2026** — Two arXiv preprints: the [BASE Scale](/publication/2025-12-29-base-scale-autonomous-facilities/) taxonomy for autonomous facilities and [Heuristic Operando Experimentation](/publication/2025-12-29-autonomous-battery-operando/).
+
+**Sep 2025** — BASE Lab launched at the University of Greenwich as part of M34Impact.
+
+**Feb 2025** — Calum Green's [multimodal synchrotron dataset](/publication/2025-02-24-multimodal-synchrotron-ml/) published in *Scientific Data*.

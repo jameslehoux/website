@@ -72,7 +72,8 @@ Invited to commission flagship instruments internationally: first external user 
 ## Funding
 
 - Faraday Institution / STFC Emerging Leader Fellowship — £407k (2024--2027)
-- STFC funding for OpenImpala deployment at DIAD beamline — £147k (2021--2022)
+- STFC Ada Lovelace Centre Grant (CANVAS-nxTOMO) — £147k (2021--2022)
+- Faraday Undergraduate Summer Experience (FUSE) — PI (2025)
 
 ## Strategy & Policy
 
@@ -83,6 +84,7 @@ Invited to commission flagship instruments internationally: first external user 
 - Member, **ISIS Science Council**, advising on science direction for the £100M spallation source
 - Invited reviewer for **€7.5M ERC Synergy Grant**
 - Secretary, Diamond Light Source Imaging Peer Review Panel (2021--2024)
+- Committee Member, Faraday Institution ECR group; Scientific Programme Board Member
 
 ## Teaching & Public Engagement
 

@@ -25,7 +25,9 @@ This requires solving several coupled problems: training Graph Neural Networks t
 
 ## Operando & Correlative Synchrotron Characterisation
 
-We design and run multi-modal operando experiments at UK national facilities (Diamond Light Source, ISIS, Central Laser Facility) and international sources (Sirius, ESRF, ILL). Our methods combine X-ray computed tomography with diffraction, fluorescence, and scattering to capture both structure and chemistry simultaneously — across domains including energy storage, planetary science, biomechanics, and soil physics.
+We design and run multi-modal operando experiments at UK national facilities (Diamond Light Source, ISIS, Central Laser Facility) and international sources (Sirius, ESRF, ILL). Our methods combine X-ray computed tomography with diffraction, fluorescence, and scattering to capture both structure and chemistry simultaneously. While batteries are the primary application, these transferable methods are deployed across a range of scientific problems: planetary science, biomechanics, soil physics, and CO~2~ absorption for carbon capture.
+
+This includes leading the world's first in-situ dark-field X-ray microscopy experiments for battery research (ID03, ESRF) and developing new correlated imaging and diffraction methods at Diamond Light Source.
 
 As PI, Le Houx leads the UK's Battery Imaging BAG at Diamond Light Source and has run 9 flagship experiments as Principal Investigator. Recent highlights include the first observation of [fluid inclusions in cryogenic natron](/publication/2026-02-19-natron-fluid-inclusions-enceladus/) — a mineral predicted on Saturn's moon Enceladus — and [coupled XRD-CT/XCT of soil mechanics](/publication/2025-07-03-xray-soil-mechanics/) during analogous root growth.
 
