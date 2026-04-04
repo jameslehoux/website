@@ -13,9 +13,33 @@ categories:
   - Hydrogen economy
   - Sustainability
 description: 'Why green ammonia could be the key to unlocking the hydrogen economy — and what it means for fertiliser, fuel, and the energy transition.'
-subtitle: 'Published on Medium. An accessible explainer on how falling renewable energy costs, grid balancing with electrolysers, and green ammonia production are converging to make the hydrogen economy a reality.'
+subtitle: 'Originally published on Medium.'
 links:
 - icon: medium
-  name: Medium
+  name: Original on Medium
   url: https://medium.com/@jameslehoux/green-ammonia-how-fertiliser-might-help-grow-the-hydrogen-economy-ce5eed3e2c39
 ---
+
+Hydrogen will be the future of the energy industry. Now I know we've been hearing this over last 20 years but there are many signs pointing to why its time is finally coming. And strange as it might sound, fertiliser might be the key to unlocking its potential.
+
+Hydrogen's future can be summarised down to 3 steps:
+
+1. Bring the cost of renewable energy down
+2. Stabilise the electricity grid
+3. Use the excess energy to produce hydrogen and synthetic fuels
+
+Now step 1 is already happening. We've seen the strike price of onshore wind and solar photovoltaic dramatically drop in the last 10 years, and all signs point to that continuing. This is going to shift the make-up of the electricity market. Generation of electricity is going to be very cheap. The cost is going to come from stabilising the frequency. Inertia, frequency regulation, peak shifting. All of these are going to play increasingly more important roles in the future (step 2).
+
+So now we're in a situation where renewable energy produces the bulk of electricity, electricity prices have dropped and there's a real demand for ways to stabilise the grid. Electrolysers can be run at a wide range of operating powers, meaning they can respond to changes in production and demand of the grid. A whole grid system of electrolysers could be distributed across the network balancing the frequency, and produce hydrogen as a byproduct.
+
+This abundance of hydrogen then opens up some very interesting opportunities. We could use it to heat our homes, power our vehicles (through fuel cells) or even as a chemical feedstock. Synthetic fuels start to become very attractive when you consider the challenges facing industries such as aviation. If you can produce bio-kerosene through renewable means, then you could de-carbonise that industry. You get your hydrogen from electrolysers, and your carbon dioxide from carbon capture on your biomass plants.
+
+I know this sounds like science fiction but when you start to look at the economics, this is probably what's going to happen. In fact green ammonia is already close to cost parity.
+
+Solar resource is abundant in Australia so it's the perfect site for a pilot plant and an ammonia production plant. The plant takes desalinated water, air and renewable energy, and produces ammonia and oxygen. This ammonia can then be used either as a fertiliser for crops, stored, shipped, burned as a fuel or converted back to hydrogen and nitrogen.
+
+Ammonia might not seem like an ideal fuel. You may be familiar with it for its use as a household cleaner where it smells pungent and is toxic. But its energy density by volume is nearly double that of liquified hydrogen and it is easier to ship and distribute.
+
+They estimate costs of 450 $/ton for green ammonia compared to the current market price of 350--400 $/ton. But for an investor this makes sense, your production is now decoupled from volatile petroleum prices, so there is much less uncertainty. And when you consider that the cost of renewables is continuing to fall, this will likely become reality in a number of places.
+
+The advent of green ammonia will not only help grow our crops, it will also help grow our hydrogen economy.
