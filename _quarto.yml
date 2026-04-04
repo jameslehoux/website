@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - CNAME
 
 website:
   title: "![BASE Lab](/assets/logo.png){height=50px} BASE LAB"
