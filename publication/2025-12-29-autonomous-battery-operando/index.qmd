@@ -1,0 +1,49 @@
+---
+title: "Autonomous battery research: Principles of heuristic operando experimentation"
+author:
+- Emily Lu
+- Gabriel Perez
+- Peter Baker
+- Daniel Irving
+- Santosh Kumar
+- Veronica Celorrio
+- Sylvia Britto
+- Thomas F. Headen
+- Miguel Gomez-Gonzalez
+- Connor Wright
+- Calum Green
+- Robert Scott Young
+- Oleg Kirichek
+- Ali Mortazavi
+- Sarah Day
+- Isabel Antony
+- Zoe Wright
+- Thomas Wood
+- Tim Snow
+- Jeyan Thiyagalingam
+- Paul Quinn
+- Martin Owen Jones
+- William David
+- name: <b>James Le Houx</b>
+  orcid: 0000-0002-1576-0673
+date: '2025-12-29'
+slug: autonomous-battery-operando
+image: ../featured.jpg
+css-class: publication-page
+categories:
+  - Autonomous experimentation
+  - Battery degradation
+  - Operando characterisation
+  - Machine learning (ML)
+  - Digital twins
+journal:
+  title: "arXiv"
+  url: "https://doi.org/10.48550/arXiv.2601.00851"
+  status: Preprint
+description: 'A framework for heuristic operando experiments where an AI pilot leverages physics-based digital twins to actively steer beamlines and capture stochastic battery failure events.'
+subtitle: 'This work exposes the systemic inability of conventional operando experiments to capture transient phenomena like dendrite initiation in batteries. To address this, Heuristic Operando experiments are proposed: a framework where an AI pilot leverages physics-based digital twins to actively steer the beamline to predict and deterministically capture rare events. This proactive approach redefines experimental efficiency via an entropy-based metric that prioritises scientific insight per photon, neutron, or muon, serving as a blueprint for trusted autonomous battery laboratories.'
+links:
+- icon: file-richtext-fill
+  name: Preprint
+  url: https://doi.org/10.48550/arXiv.2601.00851
+---

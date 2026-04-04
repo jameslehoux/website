@@ -1,0 +1,29 @@
+---
+title: "Evaluation of direct strain field prediction in bone with data-driven image mechanics (D2IM-Strain)"
+author:
+- Jon Valijonov
+- Peter Soar
+- name: <b>James Le Houx</b>
+  orcid: 0000-0002-1576-0673
+- Gianluca Tozzi
+date: '2026-03-31'
+slug: d2im-strain-bone
+image: ../featured.jpg
+css-class: publication-page
+categories:
+  - Machine learning (ML)
+  - Digital volume correlation (DVC)
+  - Bone mechanics
+  - X-ray tomography (XCT)
+  - Strain prediction
+journal:
+  title: "bioRxiv"
+  url: "https://doi.org/10.64898/2026.03.31.715417"
+  status: Preprint
+description: 'A data-driven image mechanics approach (D2IM-Strain) that predicts strain fields directly from XCT images of bone, eliminating noise from numerical differentiation of displacement fields.'
+subtitle: 'This work proposes D2IM-Strain, an upgrade to the data-driven image mechanics framework that predicts strain fields directly from undeformed X-ray computed tomography images of bone. The direct strain prediction model significantly improved accuracy for strain magnitudes below 10000 microstrain and reduced false-positive high-strain classifications by 75%, representing a critical step toward robust data-driven volume correlation methods for hierarchical materials.'
+links:
+- icon: file-richtext-fill
+  name: Preprint
+  url: https://doi.org/10.64898/2026.03.31.715417
+---

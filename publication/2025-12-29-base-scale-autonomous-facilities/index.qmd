@@ -1,0 +1,26 @@
+---
+title: "Benchmarking Autonomy in Scientific Experiments: A Hierarchical Taxonomy for Autonomous Large-Scale Facilities"
+author:
+- name: <b>James Le Houx</b>
+  orcid: 0000-0002-1576-0673
+date: '2025-12-29'
+slug: base-scale-autonomous-facilities
+image: ../featured.jpg
+css-class: publication-page
+categories:
+  - Autonomous experimentation
+  - Artificial intelligence (AI)
+  - Large-scale facilities
+  - Taxonomy
+  - Robotics
+journal:
+  title: "arXiv"
+  url: "https://doi.org/10.48550/arXiv.2601.06978"
+  status: Preprint
+description: 'A 6-level taxonomy (BASE Scale) for benchmarking autonomy in scientific experiments, specifically adapted for the unique constraints of Large-Scale User Facilities.'
+subtitle: 'This work proposes the Benchmarking Autonomy in Scientific Experiments (BASE) Scale, a 6-level taxonomy (Levels 0-5) for autonomous Large-Scale User Facilities. Unlike owner-operator models, User Facilities require zero-shot deployment where agents must operate immediately. The Inference Barrier (Level 3) is identified as the critical latency threshold where decisions shift from scalar feedback to semantic digital twins, providing facility directors and funding bodies with a standardised metric to assess risk and quantify experimental workflow intelligence.'
+links:
+- icon: file-richtext-fill
+  name: Preprint
+  url: https://doi.org/10.48550/arXiv.2601.06978
+---

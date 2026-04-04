@@ -1,0 +1,31 @@
+---
+title: "Fluid inclusions in natron - a window into the interior of Enceladus"
+author:
+- Liam Perera
+- name: <b>James Le Houx</b>
+  orcid: 0000-0002-1576-0673
+- Alberto Leonardi
+- Sarah Day
+- Stephen Thompson
+date: '2026-02-19'
+slug: natron-fluid-inclusions-enceladus
+image: ../featured.jpg
+css-class: publication-page
+categories:
+  - Astrobiology
+  - Cryospheric science
+  - X-ray tomography (XCT)
+  - Correlative X-ray tomography and diffraction
+  - Enceladus
+  - Fluid inclusions
+journal:
+  title: "Nature Portfolio"
+  url: "https://doi.org/10.21203/rs.3.rs-8406896/v1"
+  status: In Review
+description: 'First observation of fluid inclusions in cryogenic natron, a mineral predicted to be present on Saturn''s moon Enceladus, providing a window into its interior geochemistry.'
+subtitle: 'This study investigates the freezing behaviour of an Enceladus-type Na-Cl-CO3 solution using combined synchrotron X-ray computed microtomography and diffraction. The first observation of fluid inclusions in cryogenic natron (Na2CO3 . 10 H2O) is reported, establishing natron as a mineral of high astrobiological importance and arguing that future missions should prioritize sampling surface natron deposits for their potential to trap and preserve signatures of life.'
+links:
+- icon: file-richtext-fill
+  name: Preprint
+  url: https://doi.org/10.21203/rs.3.rs-8406896/v1
+---
