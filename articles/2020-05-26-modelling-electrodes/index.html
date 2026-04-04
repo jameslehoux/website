@@ -6,34 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Emily Lu">
-<meta name="author" content="Gabriel Perez">
-<meta name="author" content="Peter Baker">
-<meta name="author" content="Daniel Irving">
-<meta name="author" content="Santosh Kumar">
-<meta name="author" content="Veronica Celorrio">
-<meta name="author" content="Sylvia Britto">
-<meta name="author" content="Thomas F. Headen">
-<meta name="author" content="Miguel Gomez-Gonzalez">
-<meta name="author" content="Connor Wright">
-<meta name="author" content="Calum Green">
-<meta name="author" content="Robert Scott Young">
-<meta name="author" content="Oleg Kirichek">
-<meta name="author" content="Ali Mortazavi">
-<meta name="author" content="Sarah Day">
-<meta name="author" content="Isabel Antony">
-<meta name="author" content="Zoe Wright">
-<meta name="author" content="Thomas Wood">
-<meta name="author" content="Tim Snow">
-<meta name="author" content="Jeyan Thiyagalingam">
-<meta name="author" content="Paul Quinn">
-<meta name="author" content="Martin Owen Jones">
-<meta name="author" content="William David">
 <meta name="author" content="James Le Houx">
-<meta name="dcterms.date" content="2025-12-29">
-<meta name="description" content="A framework for heuristic operando experiments where an AI pilot leverages physics-based digital twins to actively steer beamlines and capture stochastic battery failure events.">
+<meta name="dcterms.date" content="2020-05-26">
+<meta name="description" content="A guide to the different approaches for modelling battery electrodes, from atomistic to system-level — and why image-based modelling matters.">
 
-<title>Autonomous battery research: Principles of heuristic operando experimentation – ![BASE Lab](/assets/logo.png){height=50px} BASE LAB</title>
+<title>Modelling Electrodes: Your Guide to the Latest Fashions and Trends for Summer 2020 – ![BASE Lab](/assets/logo.png){height=50px} BASE LAB</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -326,20 +303,18 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns">
 <div id="title-block-header-title" class="quarto-title page-columns page-full page-layout-full featured-image p-4" style="background-image: url(featured.png), url(featured.jpg), url(../featured.jpg);">
-<h1 class="title">Autonomous battery research: Principles of heuristic operando experimentation</h1>
-<p class="subtitle lead">This work exposes the systemic inability of conventional operando experiments to capture transient phenomena like dendrite initiation in batteries. To address this, Heuristic Operando experiments are proposed: a framework where an AI pilot leverages physics-based digital twins to actively steer the beamline to predict and deterministically capture rare events. This proactive approach redefines experimental efficiency via an entropy-based metric that prioritises scientific insight per photon, neutron, or muon, serving as a blueprint for trusted autonomous battery laboratories.</p>
+<h1 class="title">Modelling Electrodes: Your Guide to the Latest Fashions and Trends for Summer 2020</h1>
+<p class="subtitle lead">Originally published on Medium.</p>
     <div class="quarto-categories">
-        <div class="quarto-category">Autonomous experimentation</div>
-        <div class="quarto-category">Battery degradation</div>
-        <div class="quarto-category">Operando characterisation</div>
-        <div class="quarto-category">Machine learning (ML)</div>
-        <div class="quarto-category">Digital twins</div>
+        <div class="quarto-category">Science communication</div>
+        <div class="quarto-category">Battery modelling</div>
+        <div class="quarto-category">Image-based modelling</div>
       </div>
   </div>
 
 <div>
   <div id="title-block-title-desc" class="description pt-4">
-    A framework for heuristic operando experiments where an AI pilot leverages physics-based digital twins to actively steer beamlines and capture stochastic battery failure events.
+    A guide to the different approaches for modelling battery electrodes, from atomistic to system-level — and why image-based modelling matters.
   </div>
 </div>
 
@@ -347,31 +322,8 @@ ul.task-list li input[type="checkbox"] {
 <div class="quarto-title-meta">
 
     <div>
-    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Emily Lu </p>
-             <p>Gabriel Perez </p>
-             <p>Peter Baker </p>
-             <p>Daniel Irving </p>
-             <p>Santosh Kumar </p>
-             <p>Veronica Celorrio </p>
-             <p>Sylvia Britto </p>
-             <p>Thomas F. Headen </p>
-             <p>Miguel Gomez-Gonzalez </p>
-             <p>Connor Wright </p>
-             <p>Calum Green </p>
-             <p>Robert Scott Young </p>
-             <p>Oleg Kirichek </p>
-             <p>Ali Mortazavi </p>
-             <p>Sarah Day </p>
-             <p>Isabel Antony </p>
-             <p>Zoe Wright </p>
-             <p>Thomas Wood </p>
-             <p>Tim Snow </p>
-             <p>Jeyan Thiyagalingam </p>
-             <p>Paul Quinn </p>
-             <p>Martin Owen Jones </p>
-             <p>William David </p>
              <p><b>James Le Houx</b> <a href="https://orcid.org/0000-0002-1576-0673" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
           </div>
   </div>
@@ -379,7 +331,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">December 29, 2025</p>
+      <p class="date">May 26, 2020</p>
     </div>
   </div>
   
@@ -389,7 +341,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <div class="mt-4 d-flex flex-row flex-wrap gap-1 justify-content-left justify-content-sm-start" role="group" aria-label="Links">
-<a href="https://doi.org/10.48550/arXiv.2601.00851" class="btn btn-secondary text-capitalize"><i class="bi bi-file-richtext-fill me-1"></i> Preprint</a>
+<a href="https://doi.org/10.1016/j.egyr.2020.02.021" class="btn btn-secondary text-capitalize"><i class="bi bi-file-richtext-fill me-1"></i> Related Paper</a>
 </div>
 
 </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
@@ -410,8 +362,25 @@ ul.task-list li input[type="checkbox"] {
 
 
 
+<blockquote class="blockquote">
+<p>“All models are wrong, but some are useful” — George Box</p>
+</blockquote>
+<p>Mathematical models are one of the key tools used by scientists and engineers to help understand the world around us. Batteries are no exception. Models are used across the whole range of length scales: from right down at the atomistic level where models are used to discover new materials, up to the system level, where whole electric vehicles are modelled or even our country’s entire electricity grid.</p>
+<p>As we move from left to right along that scale we increase the amount of assumptions we use. At the atomistic level, density functional theory (often abbreviated as DFT) is used. DFT calculates atomic forces from first principles by approximating the Schrodinger equation, this includes the electrons.</p>
+<p>If you approximate those atomic forces by treating the atoms as classical particles you can model larger systems, this is known as molecular dynamics (MD).</p>
+<p>If you then approximate these particles as a continuous flow, you reach continuum modelling. You’ve lost the interactions between particles but can now go bigger still.</p>
+<p>Finally, you get to system level modelling, where you may not even be using physical equations to model a system but can still extract important information. The tube map is a famous example of this. It tells me nothing about the distance or location but still gives you enough information to travel around.</p>
+<p>The point of this is to show that there is no swiss army knife of models that can do it all. Scientists can get quite hung up on why their model is the greatest, but it’s important to recognise that they all have their own merits and drawbacks. And with that said, let me show you why mine is the best.</p>
+<section id="image-based-modelling" class="level2">
+<h2 class="anchored" data-anchor-id="image-based-modelling">Image-Based Modelling</h2>
+<p>Sadly I’m not talking about appearance obsessed individuals, but instead about mathematical models that are carried out on real image data. This has been a real hot-bed of research activity in the last few years and for good reason.</p>
+<p>Since the early 90’s, battery continuum modelling has been completely dominated by something known as the Doyle, Fuller, Newman model. It’s a testament to John Newman and his team that 30 years later it’s still the de facto answer for how to model a lithium-ion battery. But, like all models, it makes some assumptions.</p>
+<p>Key of which is that it uses the Bruggeman correlation. The Bruggeman correlation is a mathematical equation that relates the porosity of a structure to its tortuosity. Tortuosity is used in this case to define how easy/hard it is for a fluid to diffuse through a porous structure, in this case lithium ions diffusing through the porous electrode.</p>
+<p>The trouble is the Bruggeman correlation relies on the structure being regular, and electrodes very rarely are! One way to get around this is to do image-based modelling. This is where 3-dimensional image data of the electrode microstructure is captured and then physical equations are solved using this 3D information. This comes at a computational price though; common 3D images consist of 1000 x 1000 x 1000 3D pixels, so you’d be solving on 1 billion points! To get around this, we use assumptions, just like in the models I listed above; and different researchers use different approaches.</p>
+<p>So to try and shed some light on this I put these different approaches together in a <a href="https://doi.org/10.1016/j.egyr.2020.02.021">paper</a>. If you’re interested in how the different approaches work, you can find out more there.</p>
 
 
+</section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

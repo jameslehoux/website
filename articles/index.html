@@ -6,34 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Emily Lu">
-<meta name="author" content="Gabriel Perez">
-<meta name="author" content="Peter Baker">
-<meta name="author" content="Daniel Irving">
-<meta name="author" content="Santosh Kumar">
-<meta name="author" content="Veronica Celorrio">
-<meta name="author" content="Sylvia Britto">
-<meta name="author" content="Thomas F. Headen">
-<meta name="author" content="Miguel Gomez-Gonzalez">
-<meta name="author" content="Connor Wright">
-<meta name="author" content="Calum Green">
-<meta name="author" content="Robert Scott Young">
-<meta name="author" content="Oleg Kirichek">
-<meta name="author" content="Ali Mortazavi">
-<meta name="author" content="Sarah Day">
-<meta name="author" content="Isabel Antony">
-<meta name="author" content="Zoe Wright">
-<meta name="author" content="Thomas Wood">
-<meta name="author" content="Tim Snow">
-<meta name="author" content="Jeyan Thiyagalingam">
-<meta name="author" content="Paul Quinn">
-<meta name="author" content="Martin Owen Jones">
-<meta name="author" content="William David">
-<meta name="author" content="James Le Houx">
-<meta name="dcterms.date" content="2025-12-29">
-<meta name="description" content="A framework for heuristic operando experiments where an AI pilot leverages physics-based digital twins to actively steer beamlines and capture stochastic battery failure events.">
+<meta name="description" content="Writing on science, engineering, and the future of autonomous experimentation.">
 
-<title>Autonomous battery research: Principles of heuristic operando experimentation – ![BASE Lab](/assets/logo.png){height=50px} BASE LAB</title>
+<title>BASE Lab - Articles – ![BASE Lab](/assets/logo.png){height=50px} BASE LAB</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -52,30 +27,32 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../..//assets/logo.svg" rel="icon" type="image/svg+xml">
-<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet" class="quarto-color-scheme-extra">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-718b4ee7d9fbbef5d07a419e80889079.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-eb1eccd2d6fe251d7937e65d2393a768.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-718b4ee7d9fbbef5d07a419e80889079.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
-<link href="../../site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="..//assets/logo.svg" rel="icon" type="image/svg+xml">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet" class="quarto-color-scheme-extra">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-718b4ee7d9fbbef5d07a419e80889079.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-eb1eccd2d6fe251d7937e65d2393a768.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-718b4ee7d9fbbef5d07a419e80889079.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -103,14 +80,73 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-categories','listing-date','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500;700&amp;family=Raleway:wght@200;400;500;700&amp;display=swap" rel="stylesheet">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../assets/listing-default.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -279,8 +315,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title"><img src="../../assets/logo.png" height="50" alt="BASE Lab"> BASE LAB</span>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title"><img src="../assets/logo.png" height="50" alt="BASE Lab"> BASE LAB</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -290,27 +326,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../research/index.html"> 
+    <a class="nav-link" href="../research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../people/index.html"> 
+    <a class="nav-link" href="../people/index.html"> 
 <span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publication/index.html"> 
+    <a class="nav-link" href="../publication/index.html"> 
 <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../articles/index.html"> 
+    <a class="nav-link active" href="../articles/index.html" aria-current="page"> 
 <span class="menu-text">Articles</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../opportunities/index.html"> 
+    <a class="nav-link" href="../opportunities/index.html"> 
 <span class="menu-text">Opportunities</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../contact.html"> 
+    <a class="nav-link" href="../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -326,78 +362,32 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns">
 <div id="title-block-header-title" class="quarto-title page-columns page-full page-layout-full featured-image p-4" style="background-image: url(featured.png), url(featured.jpg), url(../featured.jpg);">
-<h1 class="title">Autonomous battery research: Principles of heuristic operando experimentation</h1>
-<p class="subtitle lead">This work exposes the systemic inability of conventional operando experiments to capture transient phenomena like dendrite initiation in batteries. To address this, Heuristic Operando experiments are proposed: a framework where an AI pilot leverages physics-based digital twins to actively steer the beamline to predict and deterministically capture rare events. This proactive approach redefines experimental efficiency via an entropy-based metric that prioritises scientific insight per photon, neutron, or muon, serving as a blueprint for trusted autonomous battery laboratories.</p>
-    <div class="quarto-categories">
-        <div class="quarto-category">Autonomous experimentation</div>
-        <div class="quarto-category">Battery degradation</div>
-        <div class="quarto-category">Operando characterisation</div>
-        <div class="quarto-category">Machine learning (ML)</div>
-        <div class="quarto-category">Digital twins</div>
-      </div>
-  </div>
+<h1 class="title">Articles</h1>
+</div>
 
 <div>
   <div id="title-block-title-desc" class="description pt-4">
-    A framework for heuristic operando experiments where an AI pilot leverages physics-based digital twins to actively steer beamlines and capture stochastic battery failure events.
+    Writing on science, engineering, and the future of autonomous experimentation.
   </div>
 </div>
 
 
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
 
-    <div>
-    <div class="quarto-title-meta-heading">Authors</div>
-    <div class="quarto-title-meta-contents">
-             <p>Emily Lu </p>
-             <p>Gabriel Perez </p>
-             <p>Peter Baker </p>
-             <p>Daniel Irving </p>
-             <p>Santosh Kumar </p>
-             <p>Veronica Celorrio </p>
-             <p>Sylvia Britto </p>
-             <p>Thomas F. Headen </p>
-             <p>Miguel Gomez-Gonzalez </p>
-             <p>Connor Wright </p>
-             <p>Calum Green </p>
-             <p>Robert Scott Young </p>
-             <p>Oleg Kirichek </p>
-             <p>Ali Mortazavi </p>
-             <p>Sarah Day </p>
-             <p>Isabel Antony </p>
-             <p>Zoe Wright </p>
-             <p>Thomas Wood </p>
-             <p>Tim Snow </p>
-             <p>Jeyan Thiyagalingam </p>
-             <p>Paul Quinn </p>
-             <p>Martin Owen Jones </p>
-             <p>William David </p>
-             <p><b>James Le Houx</b> <a href="https://orcid.org/0000-0002-1576-0673" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">December 29, 2025</p>
-    </div>
-  </div>
   
     
   </div>
   
 
 
-<div class="mt-4 d-flex flex-row flex-wrap gap-1 justify-content-left justify-content-sm-start" role="group" aria-label="Links">
-<a href="https://doi.org/10.48550/arXiv.2601.00851" class="btn btn-secondary text-capitalize"><i class="bi bi-file-richtext-fill me-1"></i> Preprint</a>
-</div>
 
-</header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+</header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 <!-- source: https://github.com/gadenbuie/garrickadenbuie-com/blob/main/_partials/title-block-link-buttons/title-block.html -->
@@ -413,7 +403,103 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-left" data-index="0" data-categories="U2NpZW5jZSUyMGNvbW11bmljYXRpb24lMkNCaW9tZWNoYW5pY3MlMkNTeW5jaHJvdHJvbiUyMHNjaWVuY2UlMkNTb2lsJTIwcGh5c2ljcw==" data-listing-date-sort="1754438400000" data-listing-file-modified-sort="1775294848494" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="912">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../articles/2025-08-06-roots-drought/index.html" class="no-external">Nature’s underground engineers: how plant roots could save harvests from drought</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('U2NpZW5jZSUyMGNvbW11bmljYXRpb24='); return false;">Science communication</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QmlvbWVjaGFuaWNz'); return false;">Biomechanics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3luY2hyb3Ryb24lMjBzY2llbmNl'); return false;">Synchrotron science</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U29pbCUyMHBoeXNpY3M='); return false;">Soil physics</div>
+
+</div>
+<div class="delink listing-description"><a href="../articles/2025-08-06-roots-drought/index.html" class="no-external">
+<p>How synchrotron X-rays revealed the mechanics of root penetration in compacted soil — and what it means for drought-resistant crops.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../articles/2025-08-06-roots-drought/index.html" class="no-external">
+<div class="listing-date">
+Aug 6, 2025
+</div>
+<div class="listing-author">
+<b>James Le Houx</b>, Siul Ruiz
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="1" data-categories="U2NpZW5jZSUyMGNvbW11bmljYXRpb24lMkNCYXR0ZXJ5JTIwbW9kZWxsaW5nJTJDSW1hZ2UtYmFzZWQlMjBtb2RlbGxpbmc=" data-listing-date-sort="1590451200000" data-listing-file-modified-sort="1775294848494" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="562">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../articles/2020-05-26-modelling-electrodes/index.html" class="no-external">Modelling Electrodes: Your Guide to the Latest Fashions and Trends for Summer 2020</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('U2NpZW5jZSUyMGNvbW11bmljYXRpb24='); return false;">Science communication</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QmF0dGVyeSUyMG1vZGVsbGluZw=='); return false;">Battery modelling</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SW1hZ2UtYmFzZWQlMjBtb2RlbGxpbmc='); return false;">Image-based modelling</div>
+
+</div>
+<div class="delink listing-description"><a href="../articles/2020-05-26-modelling-electrodes/index.html" class="no-external">
+<p>A guide to the different approaches for modelling battery electrodes, from atomistic to system-level — and why image-based modelling matters.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../articles/2020-05-26-modelling-electrodes/index.html" class="no-external">
+<div class="listing-date">
+May 26, 2020
+</div>
+<div class="listing-author">
+<b>James Le Houx</b>
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-left" data-index="2" data-categories="U2NpZW5jZSUyMGNvbW11bmljYXRpb24lMkNFbmVyZ3klMkNIeWRyb2dlbiUyMGVjb25vbXklMkNTdXN0YWluYWJpbGl0eQ==" data-listing-date-sort="1578182400000" data-listing-file-modified-sort="1775294848494" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="528">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../articles/2020-01-05-green-ammonia/index.html" class="no-external">Green Ammonia — How Fertiliser Might Help Grow the Hydrogen Economy</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('U2NpZW5jZSUyMGNvbW11bmljYXRpb24='); return false;">Science communication</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RW5lcmd5'); return false;">Energy</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('SHlkcm9nZW4lMjBlY29ub215'); return false;">Hydrogen economy</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U3VzdGFpbmFiaWxpdHk='); return false;">Sustainability</div>
+
+</div>
+<div class="delink listing-description"><a href="../articles/2020-01-05-green-ammonia/index.html" class="no-external">
+<p>Why green ammonia could be the key to unlocking the hydrogen economy — and what it means for fertiliser, fuel, and the energy transition.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="../articles/2020-01-05-green-ammonia/index.html" class="no-external">
+<div class="listing-date">
+Jan 5, 2020
+</div>
+<div class="listing-author">
+<b>James Le Houx</b>
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -839,12 +925,12 @@ ul.task-list li input[type="checkbox"] {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../../accessibility.html">
+    <a class="nav-link" href="../accessibility.html">
 <p>Accessibility</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../license.html">
+    <a class="nav-link" href="../license.html">
 <p>License</p>
 </a>
   </li>  

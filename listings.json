@@ -1,5 +1,13 @@
 [
   {
+    "listing": "/articles/index.html",
+    "items": [
+      "/articles/2025-08-06-roots-drought/index.html",
+      "/articles/2020-05-26-modelling-electrodes/index.html",
+      "/articles/2020-01-05-green-ammonia/index.html"
+    ]
+  },
+  {
     "listing": "/publication/index.html",
     "items": [
       "/publication/2026-03-31-d2im-strain-bone/index.html",
