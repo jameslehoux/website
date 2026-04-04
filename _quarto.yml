@@ -12,7 +12,7 @@ website:
   navbar:
     tools:
     - icon: github
-      href: https://github.com/jameslehoux
+      href: https://github.com/BASE-Laboratory
     - theme-toggle: true
     right:
       - text: Research
@@ -21,6 +21,8 @@ website:
         href: people/index.qmd
       - text: Publications
         href: publication/index.qmd
+      - text: Articles
+        href: articles/index.qmd
       - text: Opportunities
         href: opportunities/index.qmd
       - text: Contact

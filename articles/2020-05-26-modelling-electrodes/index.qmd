@@ -1,0 +1,23 @@
+---
+title: "Modelling Electrodes: Your Guide to the Latest Fashions and Trends for Summer 2020"
+author:
+- name: <b>James Le Houx</b>
+  orcid: 0000-0002-1576-0673
+date: '2020-05-26'
+slug: modelling-electrodes
+image: ../featured.jpg
+css-class: publication-page
+categories:
+  - Science communication
+  - Battery modelling
+  - Image-based modelling
+description: 'A guide to the different approaches for modelling battery electrodes, from atomistic to system-level — and why image-based modelling matters.'
+subtitle: 'Published on Medium. A short explainer on why "all models are wrong, but some are useful", covering the spectrum from density functional theory to system-level models, and making the case for image-based modelling of real electrode microstructures.'
+links:
+- icon: medium
+  name: Medium
+  url: https://medium.com/@jameslehoux
+- icon: file-richtext-fill
+  name: Related Paper
+  url: https://doi.org/10.1016/j.egyr.2020.02.021
+---

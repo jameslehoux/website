@@ -1,0 +1,25 @@
+---
+title: "Nature's underground engineers: how plant roots could save harvests from drought"
+author:
+- name: <b>James Le Houx</b>
+  orcid: 0000-0002-1576-0673
+- Siul Ruiz
+date: '2025-08-06'
+slug: roots-drought
+image: ../featured.jpg
+css-class: publication-page
+categories:
+  - Science communication
+  - Biomechanics
+  - Synchrotron science
+  - Soil physics
+description: 'How synchrotron X-rays revealed the mechanics of root penetration in compacted soil — and what it means for drought-resistant crops.'
+subtitle: 'Published in The Conversation. We used Diamond Light Source to peer inside soil as a model root pushed through it, mapping both the 3D structure and the internal forces for the first time. The results show roots manage pressure at their tip, causing soil to yield and flow rather than simply being shoved aside — a far more efficient strategy for penetrating hard ground.'
+links:
+- icon: newspaper
+  name: The Conversation
+  url: https://doi.org/10.64628/AB.39dy6u7ua
+- icon: file-richtext-fill
+  name: Research Paper
+  url: https://doi.org/10.1038/s44341-025-00021-7
+---

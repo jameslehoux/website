@@ -1,0 +1,21 @@
+---
+title: "Green Ammonia — How Fertiliser Might Help Grow the Hydrogen Economy"
+author:
+- name: <b>James Le Houx</b>
+  orcid: 0000-0002-1576-0673
+date: '2020-01-05'
+slug: green-ammonia
+image: ../featured.jpg
+css-class: publication-page
+categories:
+  - Science communication
+  - Energy
+  - Hydrogen economy
+  - Sustainability
+description: 'Why green ammonia could be the key to unlocking the hydrogen economy — and what it means for fertiliser, fuel, and the energy transition.'
+subtitle: 'Published on Medium. An accessible explainer on how falling renewable energy costs, grid balancing with electrolysers, and green ammonia production are converging to make the hydrogen economy a reality.'
+links:
+- icon: medium
+  name: Medium
+  url: https://medium.com/@jameslehoux/green-ammonia-how-fertiliser-might-help-grow-the-hydrogen-economy-ce5eed3e2c39
+---
