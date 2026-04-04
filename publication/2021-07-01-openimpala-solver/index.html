@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.24">
+<meta name="generator" content="quarto-1.9.36">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -11,8 +11,11 @@
 <meta name="dcterms.date" content="2021-07-01">
 <meta name="description" content="Development of OpenImpala, a data-driven, fully parallelisable, image-based modelling framework for analyzing large 3D tomography datasets of porous electrodes.">
 
-<title>OpenImpala: OPEN source IMage based PArallisable Linear Algebra solver – ![James Le Houx - Research Logo](/assets/logo.png){height=50px} JAMES LE HOUX</title>
+<title>OpenImpala: OPEN source IMage based PArallisable Linear Algebra solver – ![BASE Lab](/assets/logo.png){height=50px} BASE LAB</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -37,7 +40,6 @@ ul.task-list li input[type="checkbox"] {
 <link href="../..//assets/logo.svg" rel="icon" type="image/svg+xml">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
@@ -45,9 +47,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet" class="quarto-color-scheme-extra">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-5fcf1e2a1e8a274bc84870b1caac9cb9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-cde75a52960647d4c7738270f537dc0f.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-5fcf1e2a1e8a274bc84870b1caac9cb9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-718b4ee7d9fbbef5d07a419e80889079.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-eb1eccd2d6fe251d7937e65d2393a768.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-718b4ee7d9fbbef5d07a419e80889079.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
 <link href="../../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
@@ -255,10 +257,8 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    </a>
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title"><img src="../../assets/logo.png" height="50" alt="James Le Houx - Research Logo"> JAMES LE HOUX</span>
+    <span class="navbar-title"><img src="../../assets/logo.png" height="50" alt="BASE Lab"> BASE LAB</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -268,12 +268,24 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../about/index.html"> 
-<span class="menu-text">About</span></a>
+    <a class="nav-link" href="../../research/index.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../people/index.html"> 
+<span class="menu-text">People</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../../publication/index.html"> 
 <span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../opportunities/index.html"> 
+<span class="menu-text">Opportunities</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../contact.html"> 
+<span class="menu-text">Contact</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -775,7 +787,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© 2025 James Le Houx · Made with <a href="https://quarto.org">Quarto</a></p>
+<p>© 2025 BASE Lab · Made with <a href="https://quarto.org">Quarto</a></p>
 </div>   
     <div class="nav-footer-center">
 <p><a class="link-dark me-1" href="https://bsky.app/profile/thebeamline.bsky.social" title="Bluesky" target="_blank" rel="noopener"><i class="fa-brands fa-bluesky" aria-label="bluesky"></i></a> <a class="link-dark me-1" href="https://linkedin.com/in/jameslehoux/" title="LinkedIn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin" aria-label="linkedin"></i></a> <a class="link-dark me-1" href="https://github.com/jameslehoux" title="github" target="_blank" rel="noopener"><i class="fa-brands fa-github" aria-label="github"></i></a> <a class="link-dark me-1" href="https://orcid.org/0000-002-1576-0673" title="orcid" target="_blank" rel="noopener"><i class="ai  ai-orcid"></i></a> <a class="link-dark me-1" href="https://scholar.google.com/citations?user=m4oegGQAAAAJ&amp;hl=en" title="Google Scholar" target="_blank" rel="noopener"><i class="ai  ai-google-scholar"></i></a></p>
@@ -785,11 +797,6 @@ ul.task-list li input[type="checkbox"] {
     <li class="nav-item">
     <a class="nav-link" href="../../accessibility.html">
 <p>Accessibility</p>
-</a>
-  </li>  
-    <li class="nav-item">
-    <a class="nav-link" href="../../contact.html">
-<p>Contact</p>
 </a>
   </li>  
     <li class="nav-item">
