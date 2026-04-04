@@ -15,7 +15,6 @@ website:
     tools:
     - icon: github
       href: https://github.com/BASE-Laboratory
-    - theme-toggle: true
     right:
       - text: Research
         href: research/index.qmd
