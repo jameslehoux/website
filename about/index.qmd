@@ -65,7 +65,7 @@ My research combines operando synchrotron experiments with AI and high-performan
 
 ## Facility Access
 
-Principal Investigator on 9 flagship experiments (~£1.7M in-kind value) at Diamond, ISIS, and Sirius, including the UK Battery Imaging BAG. Co-Investigator on 22 further experiments.
+Principal Investigator on 9 experiments (~£1.7M in-kind value) at Diamond, ISIS, and Sirius, including the UK Battery Imaging BAG. Co-Investigator on 22 further experiments.
 
 Invited to commission flagship instruments internationally: first external user of the MOGNO beamline (Sirius, Brazil), second external user of the dark-field X-ray microscope (ID03, ESRF), and second external user of the high-resolution neutron imaging beamline (PorTo, ILL).
 
@@ -79,7 +79,6 @@ Invited to commission flagship instruments internationally: first external user 
 - Lead author, **Faraday Focus** ten-year research strategy for UK National Facilities (Diamond, ISIS, CLF)
 - Lead, STFC / Faraday / Google taskforce on emerging AI research capabilities
 - Advisor to **DSIT** on AI data standards for materials science
-- Director, cross-institutional network across 27 universities for AI-driven battery R&D
 - Selected by **Stanford / SLAC** as one of 30 UK leaders for US-UK energy storage initiative
 - Member, **ISIS Science Council**, advising on science direction for the £100M spallation source
 - Invited reviewer for **€7.5M ERC Synergy Grant**
@@ -87,6 +86,5 @@ Invited to commission flagship instruments internationally: first external user 
 
 ## Teaching & Public Engagement
 
-- Invited speaker, **BBC Radio 4** *The Life Scientific*; featured expert in the **Financial Times**
 - Conceived and lead the **Faraday Institution Masterclass** series — national curriculum on advanced characterisation, 1000+ attendees
 - Session Chair, **ACS National Meeting**; Co-chair, **IBSIM-4i** (IoP) and **Microscience Microscopy Congress** (RMS)
