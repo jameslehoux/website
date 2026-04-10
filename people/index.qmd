@@ -116,3 +116,21 @@ Ali is building an interactive web application for exploring 4D battery tomograp
 University of Greenwich
 
 Insha is developing guided super-resolution methods that use high-resolution structural data (XCT) to intelligently upsample low-resolution chemical maps (XRD-CT), producing unified high-resolution datasets containing both structural and chemical information. The work builds on the [FeatUp](https://arxiv.org/abs/2403.10516) framework and our group's [multimodal synchrotron dataset](https://doi.org/10.1038/s41597-025-04605-9).
+
+---
+
+## Alumni
+
+### Emily Lu
+
+*Heuristic Operando Experimentation and Standardisation of Battery Sample Environments*
+
+University of Cambridge · Faraday Institution FUSE Intern (Summer 2025)
+
+Emily is an Engineering undergraduate at the University of Cambridge who joined the BASE Lab as a Faraday Institution FUSE intern. Her research addressed the critical lack of standardisation, reliability, and reproducibility in battery characterisation across national facilities. During her project, she conducted a comprehensive review of *in situ/operando* sample environments at the Rutherford Appleton Laboratory (RAL). To bridge the gap toward commercial applications, she built the [Operando Library](https://operando-library.streamlit.app/), an open-source, interactive web registry of electrochemical cells available across UK central facilities. This machine-readable database serves as the hardware ground truth for our group's heuristic operando framework, which proposes using AI and digital twins to actively steer beamlines to predict and capture transient failure events.
+
+**Interactive tool:** [Operando Sample Environment Registry](https://operando-library.streamlit.app/)
+
+**Key publication:** [Autonomous battery research: Principles of heuristic operando experimentation](https://arxiv.org/abs/2601.00851) — *arXiv* (2025)
+
+
