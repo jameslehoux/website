@@ -15,7 +15,7 @@ format:
 
 Senior Lecturer, University of Greenwich · Faraday Institution / STFC Emerging Leader Fellow
 
-James founded the BASE Lab in 2025. His research develops autonomous X-ray imaging platforms for energy materials, combining synchrotron experiments with AI and high-performance simulation. He holds a PhD from the University of Southampton and is a Chartered Engineer (CEng, IMechE). Before academia, he was a design engineer in top-tier motorsport (Xtrac Ltd.) and a beamline scientist at Diamond Light Source.
+James founded the BASE Lab in 2025. His research develops autonomous X-ray imaging platforms for energy materials, combining synchrotron experiments with AI and high-performance simulation. He holds a PhD from the University of Southampton and is a Chartered Engineer (CEng, IMechE). Before academia, he was a design engineer in motorsport (Xtrac Ltd.) and a beamline scientist at Diamond Light Source.
 
 He leads the UK's Battery Imaging BAG at Diamond Light Source, serves on the ISIS Science Council, and advises DSIT on AI data standards for materials science. He developed the Faraday Engine, a national initiative connecting UK Exascale computing to national facilities.
 
@@ -29,7 +29,7 @@ He leads the UK's Battery Imaging BAG at Diamond Light Source, serves on the ISI
 
 *Applications of Deep Learning for Super-Resolution and Data Fusion of 3D X-ray Imaging Datasets for Materials Characterisation*
 
-Imperial College London · Co-supervised with Prof. Daniele Dini · Completing July 2026
+Imperial College London · Co-supervised with Prof. Daniele Dini and Dr Sharif Ahmed · Completing July 2026
 
 Calum develops generative super-resolution methods and multi-modal data fusion pipelines for synchrotron X-ray imaging. His work includes EXG-GAN, a generative adversarial network for upsampling spatially resolved 3D tomographic data, and methods for fusing XRD-CT and XCT datasets for autonomous materials segmentation. He is building [OpenLSR-X](https://github.com/jameslehoux), an open-source PyTorch package for learnable super-resolution of XCT data.
 
@@ -55,9 +55,35 @@ Jon is developing D2IM, a deep learning framework that predicts full-field displ
 
 *Quantum-AI Synergy for Next-Generation Imaging of Biological Tissues*
 
-University of Greenwich
+University of Greenwich · Co-supervised with Prof. Gianluca Tozzi and Dr Peter Soar
 
 Isabella is investigating quantum-native representations of biological tissue images to enable AI operations — classification, segmentation, measurement, and multi-modal data fusion — that are intractable with classical approaches alone. Her work surveys hybrid quantum-classical architectures for biomedical imaging and is developing toward Quantum Image Correlation (QuIC), a quantum extension of digital volume correlation for high-dimensional volumetric data.
+
+---
+
+### Conor Wright
+
+*Leveraging Plant Biomechanics under Hostile Environments: Modelling Root Penetration and Fracture with SRXCT*
+
+University of Southampton · Co-supervised with Dr Siul Ruiz
+
+Conor's research investigates the underpinning biomechanical processes of plant roots growing in highly compacted, high-strength environments to inform regenerative farming practices. To capture these dynamics in situ, he combines Synchrotron X-ray Computed Tomography (SRXCT) and coupled, spatially resolved X-ray diffraction (XRD) with Digital Volume Correlation. This multimodal approach allows him to infer root pressures and map localised soil mechanics, which feed into the development of predictive finite element (FE) models. His work simulates both direct root tip penetration and crack propagation in surrogate and natural soils, modelling them as elastoplastic von Mises materials with finite strain theory to create digital twins of root-soil interactions. 
+
+**Key presentation:** [Understanding root biomechanics in high-strength environments- assessing the feasibility of penetration and fracture FE models with SRXCT](https://doi.org/10.5194/egusphere-egu26-7232) — *EGU General Assembly* (2026)
+
+---
+
+## Grad Students
+
+### Harriet Jones
+
+*Massively Parallel Workflows for Image-based Modelling*
+
+STFC Daresbury Lab · Co-supervised with Dr Charles Moulinec and Dr Stefano Rolfo
+
+Harriet is integrating `code_saturne`, a highly optimised, open-source engineering modelling framework, into our semi-automated image-based modelling workflow. Her research focuses on utilizing Compatible Discrete Operator (CDO) schemes to simulate complex physics within porous materials directly from X-ray tomography data. By automatically generating body-fitted meshes from voxel datasets via a mesh blanking process, she bypasses the need for external meshing software. For her early-impact science case, Harriet is simulating flow fields to understand the optimisation of bilayer electrodes for Lithium-ion batteries, utilizing tomography data acquired at Diamond Light Source.
+
+**Key presentation:** *Massively Parallel Workflows for Image-based Modelling* — Scientific Computing Department Poster 
 
 ---
 
